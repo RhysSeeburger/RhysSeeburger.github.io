@@ -57,19 +57,46 @@
 								<h2 class="major">Research</h2>
 								<ul class="alt">
 								<li>
-								<h4>Disentangling Composite Spectra</h4>
+								<h4>Hunting for Black Holes in the Milky Way</h4>
+								<span class="image main"><img src="images/kareem_bh_closeup_star_behind.png" alt="" />Image Credit: Thomas M&uuml;ller, MPIA</span>
+								<p>I am currently working on my PhD Thesis, supervised by Hans-Walter Rix at the Max Planck Institute for Astronomy.
+									According to population models, we expect around 10 billion stellar mass black holes to exist in the Milky Way - however, to this day, detections of these objects are very rare. 
+									My work aims to search for stellar mass, dormant black holes in close, detached binaries, using a variety of possible signatures. 
+									These include, but are not limited to, ellipsoidal variation and doppler beaning of the light curve of the stellar companion, red- and blueshift variations in the star's spectrum, and light-centroid wobble of the companion’s position on the night sky. 
+									To this end, photometric, spectroscopic and astrometric data is used. 
+									This will allow us to characterise stellar mass black holes in binaries, or, if none are found, place constraints on their populations.
+								</p>
+								<h5>Disentangling Composite Spectra</h5>
 								<span class="image main"><img src="images/ANIMATE_Unicorn_bin1_lam1_q0.18.gif" alt="" /></span>
-								<p>Adipiscs.</p>
+								<p>
+									So far, my work has focussed on spectral disentangling based on an approach presented by <a href="https://ui.adsabs.harvard.edu/abs/1994A%26A...281..286S">Simon & Sturm (1994)</a>.
+									Unlike most spectral disentangling methods used today, this algorithm does not require the use of templates, instead employing linear algebra and multi-epoch spectra to disentangle the composite spectra into their individual components. 
+									This has the advantage of being able to detect uncommon or strange secondary signatures, for which there may be no templates available (such as, for example, stripped sellar cores.) 
+									So far, I have implemented and updated this algorithm in python, including methods that allow an almost "blind" analysis of the spectra, without requiring further knowledge of the RVs, mass- and light ratio, and centre-of-mass velocity of the system. 
+									The code has been successfully applied to some proposed black hole candidates in <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.5620E/abstract">El-Badry et. al (2022)</a>. 
+									Now, I am starting to apply the code to LAMOST multi-epoch spectral data, to identify and characterise binaries.
+								</p>
 								</li>
 								<li>
 								<h4>Methane Biosignatures on Archean-Earth-like Exoplanets</h4>
-								<span class="image main"><img src="images/LvsH10.png" alt="" /></span>
-								<p>Adipiscs.</p>
+								<span class="image left"><img src="images/Artist’s_impression_of_an_exoplanet_in_a_retrograde_orbit_(without_additional_graphics).jpeg" alt="" />Image Credit:ESO/L. Calçada</span>
+								<p>In the summer of 2020, I completed a research project at the University of Edinburgh under the supervision of Pete Higgins, Niall Whiteford and Charles Cockell.
+									We explored the efficacy of methane as a biosignature on an exoplanet similar to ancient Earth.
+									Such a planet would likely be geologically active, leading to the presence of potentially many hydrothermal vents.
+									These vents present an excellent environment for methanogens, small organisms that produce methane as a by-product of their metabolism.
+									We explored the parameters controlling the amount of methane produced (such as total hydrothermal vent coverage and nutrient inflow) with the biological modelling code <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsif.2020.0588">NutMEG</a>.
+									Then, we used the <a href="https://psg.gsfc.nasa.gov/">NASA Planetary Spectrum Generator</a> to determine the conditions under which it would be detectable from Earth using next generation telescopes, such as HabEx and LUVOIR.
+								</p>
 								</li>
 								<li>
 								<h4>Weak Lensing Cosmology with Machine Learning</h4>
-								<span class="image main"><img src="images/ANIMATE_Unicorn_bin1_lam1_q0.18.gif" alt="" /></span>
-								<p>Adipiscs.</p>
+								<span class="image main"><img src="images/cnn2.png" alt="" /></span>
+								<p>
+									For my Master's, I explored Deep Learning as a method of constraining cosmological parameters in the Lambda-Cold-Dark-Matter Model, supervised by Benjamin Giblin and Catherine Heymans.
+									We used noisy weak lensing shear maps generated using the <a href="https://slics.roe.ac.uk/">SLICS</a> and <a href="https://arxiv.org/abs/1905.06454">CosmoSLICS</a> simulation suites to train a convolutional neural network (CNN) to predict the underlying parameters.
+									During this process, we explored the effects of different network architectures, training methods, and data augmentation techniques.
+									We found that a CNN was not yet competetive with the standard 2-point correlation function method, but that it was able to obtain constraints on the cosmological parameters explored.
+								</p>
 								</li>
 
 								<hr>
@@ -89,7 +116,7 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/IMG_20220701_190024.jpg" alt="" /></span>
+								<span class="image left"><img src="images/PXL_20210715_144437499.MP.jpg" alt="" /></span>
 								<p>Hello! I am Rhys Seeburger, also known as Luzian, and I am a PhD Student at the Max Planck Institute for Astronomy in Heidelberg, Germany, under the supervision of Hans-Walter Rix. 
 									I previously completed my MPhys in Astrophysics at the University of Edinburgh, Scotland, in 2021.<br>
 									My current work focuses on the detection and eventual characterisation of dark objects (such as non-accreting black holes) in the Milky Way Galaxy. 
@@ -97,7 +124,8 @@
 									Our goal is to learn more about the final stages of stellar evolution, especially for stars in multiple systems.</br>
 									</br>
 									I care a lot about Astronomy as a diverse and inclusive discipline, and as such am very engaged in <a href="#outreach">Outreach and Activism.</a>  
-									If you have ideas on how we can make the field more accessible, or even just tell the public about what we do, and want to collaborate, feel free to use the <a href="#contact">Contact Form.</a></p>
+									If you have ideas on how we can make the field more accessible, or even just tell the public about what we do, and want to collaborate, feel free to use the <a href="#contact">Contact Form.</a>
+								</p>
 							</article>
 
 						<!-- Outreach & Teaching -->
@@ -134,7 +162,7 @@
 										While at University of Edinburgh, I joined the Physics Peer Mentoring Scheme as a Peer Support Leader, where I helped first- and second-year students with their studies.
 									</p>
 									<p>
-										For my Bachelor's, I participated in the "Science Education Placement", allowing me to help out in an Edinburgh high school for a semester.
+										For my Bachelor's, I participated in the "Science Education Placement", allowing me to help out at an Edinburgh high school for a semester.
 										During the Placement, I observed lessons, aided in demonstrations, provided my input during lessons, and delivered my own lessons on various topics in Physics.
 										I also participated in and lead the Astronomy Club on a few occasions, teaching students about a wide range of astronomical phenomena.
 										I have since gone back to the school a few times to give further talks at the Astronomy Club.
@@ -154,6 +182,13 @@
 								<ul class="alt">
 									<li>
 									<h3>Student Representation</h3>
+									<p>
+										Making the voices of my fellow students heard is very important to me, and I have been involved in student representation for a number of years.
+										While at the University of Edinburgh, I was the Astrophsics Degree Year Representative from 2019-2021, and chaired the Staff Student Liaison Committee for the School of Physics and Astronomy 2020-2021.
+										In 2020-2021, I was also the School Convener for the School of Physics and Astronomy at Edinburgh.
+										Recently, I was elected IMPRS Representative for my cohort of Astronomy PhD students at the University of Heidelberg.
+									</p>
+									</li>
 									<li>
 									<h3>Activism</h3>
 									<p>I care deeply about making Academia in General, and Science and specifically Astronomy in particular, a more welcoming environment for everyone.
