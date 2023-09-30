@@ -39,15 +39,23 @@ interests:
 # Social/Academic Networking
 social:
 - icon: fas fa-envelope big-icon
-  link: '/#contacts'
+  link: '/#00_contact'
 - icon: ai ai-ads big-icon
   link: https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8898-9463
 - icon: ai ai-arxiv big-icon
   link: https://arxiv.org/search/?query=seeburger&searchtype=author
+- icon: fab fa-orcid big-icon
+  link: https://orcid.org/0000-0001-8898-9463
 - icon: fab fa-github big-icon
   link: https://github.com/rhysseeburger
 - icon: fab fa-linkedin big-icon
   link: https://www.linkedin.com/in/rhys-seeburger
+- icon: fas fa-university big-icon
+  link: https://www.mpia.de/person/114717/3378443
+- icon: fas fa-graduation-cap big-icon
+  link: https://www.imprs-hd.mpg.de/442140/Seeburger-Luzian
+- icon: fas fa-people-group big-icon
+  link: https://www.mpia.de/rix/team
 # Link to a PDF of your resume/CV.
 - icon: ai ai-cv big-icon
   link: static/docs/CV.pdf
