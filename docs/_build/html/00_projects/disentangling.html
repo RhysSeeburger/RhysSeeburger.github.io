@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Gallery Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin=anonymous media=print onload="this.media='all'">
+  <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
+  <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <script type="text/javascript" id="MathJax-config">
+    MathJax = {
+      loader: {
+      load: ['ui/menu', '[tex]/all-packages', '[tex]/physics',
+              '[tex]/ams', '[tex]/gensymb', '[tex]/noundefined',
+              '[tex]/noerrors']
+      },
+      tex: {
+      packages: {'[+]': ['physics', 'ams', 'gensymb', 'noundefined']},
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      processEscapes: false,
+      noundefined: {
+          color: 'red',
+          background: '',
+          size: ''
+      }
+      },
+    };
+  </script>
+  <script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.7.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+                
+        <div class="swiper-slide">
+            <img src="/static/img/kareem_bh_closeup_star_behind.png" alt="">
+            <p> <p>Our nearest black hole, Gaia BH1. Image Credit: Thomas Müller, HdA/MPIA</p></p>
+        </div>
+        
+
+        <div class="swiper-slide">
+            <img src="/static/img/ANIMATE_Unicorn_bin1_lam1_q0.18.gif" alt="">
+            <p> <p>An animation of the disentangling process. The top panel shows the observed spectra, the middle panel shows the disentangled spectra, and the bottom panel shows the residuals. The disentangled spectra are shown in red and blue, and the residuals are shown in black.</p></p>
+        </div>
+        
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Hunting for Dark Companions</h3>
+<ul>
+<li>Finding the elusive dormant stellar mass black holes in the Milky Way.</li>
+</ul>
+            </div>
+            <div class="portfolio-description">
+              <h3>Hunting for Dark Companions</h3>
+<p>I am currently working on my PhD Thesis, supervised by Hans-Walter Rix at the Max Planck Institute for Astronomy. According to population models, we expect around 10 billion stellar mass black holes to exist in the Milky Way - however, to this day, detections of these objects are very rare. My work aims to search for stellar mass, dormant black holes in close, detached binaries, using a variety of possible signatures. These include, but are not limited to, ellipsoidal variation and doppler beaning of the light curve of the stellar companion, red- and blueshift variations in the star's spectrum, and light-centroid wobble of the companion’s position on the night sky. To this end, photometric, spectroscopic and astrometric data is used. This will allow us to characterise stellar mass black holes in binaries, or, if none are found, place constraints on their populations.</p>
+<h3>Disentangling Composite Spectra</h3>
+<p>So far, my work has focussed on spectral disentangling based on an approach presented by Simon &amp; Sturm (1994). Unlike most spectral disentangling methods used today, this algorithm does not require the use of templates, instead employing linear algebra and multi-epoch spectra to disentangle the composite spectra into their individual components. This has the advantage of being able to detect uncommon or strange secondary signatures, for which there may be no templates available (such as, for example, stripped sellar cores.) So far, I have implemented and updated this algorithm in python, including methods that allow an almost "blind" analysis of the spectra, without requiring further knowledge of the RVs, mass- and light ratio, and centre-of-mass velocity of the system. The code has been successfully applied to some proposed black hole candidates in El-Badry et. al (2022). Now, I am starting to apply the code to LAMOST multi-epoch spectral data, to identify and characterise binaries.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/purecounter/purecounter.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/typed.js/typed.min.js"></script>
+  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -2,14 +2,19 @@
 # Homepage
 type: index
 
-site-title: M. L. M. Fouesneau
+site-title: Rhys Seeburger
 
 content:
-    - aboutme
-    - posts
-    - projects
-    - cv
-    - outsideprojects
-    - publications
-    - contacts
+    - 00_about
+    - 00_research
+    - 00_publications
+    - 00_talks
+    - 00_cv
+    - 00_teaching
+    - 00_outreach
+    - 00_representation
+    - 00_activism
+    - 00_contact
+
+title_info: 00_about
 ---

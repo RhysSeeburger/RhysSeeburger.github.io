@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 # !pip install -q ads
 import os
-os.environ["ADS_DEV_KEY"] = "okomkAPoHKJKbNvpEVwGsMndPXOMinBGXr1NJEWw"
+os.environ["ADS_DEV_KEY"] = "T3tcZKmLCiKadwsnVzx3JCkSWqimC1b54fXPoVJc"
 import ads
 from ads.search import Article
 from typing import Any
 import yaml
+from .markdown_helpers import Markdown
 
 
 def shortname(name: str) -> str:
@@ -23,7 +24,7 @@ def shortname(name: str) -> str:
 
 
 def generate_short_author_list(paper: Article,
-                               highlight: str = 'fouesneau',
+                               highlight: str = 'seeburger',
                                keep: int = -1) -> str:
     hl = highlight.lower()
     author = ["<strong>{name:s}</strong>".format(name=name) if hl in name.lower()
@@ -94,7 +95,7 @@ class Paper(dict):
             self['category'] = 'unknown'
 
     def get_short_author_list(self,
-                              highlight: str = 'fouesneau',
+                              highlight: str = 'seeburger',
                               keep: int = -1,
                               highlight_format='html') -> str:
         hl = highlight.lower()
@@ -169,17 +170,16 @@ def get_additional_papers():
 
     additionals.append(ralet2015)
 
-    return additionals
+    return None
 
 
 def main(filename='publication_list.md',
-         author='fouesneau'):
-
+         author='seeburger, r'):
     print(f"Generating the publication list for author {author}")
 
     papers = list(
             ads.SearchQuery(
-                author='fouesneau',
+                author=author,
                 fl=[
                     "id",
                     "identifier",
@@ -238,10 +238,10 @@ def main(filename='publication_list.md',
     summary = {
         'articles': {'description': "refereed publications",
                     'number': len(myarticles['article'])},
-        'collaboration': {'description': "publications from large collaborations",
-                        'number': len(myarticles['collaboration'])},
-        'other': {'description': "other publications",
-                'number': len(myarticles['other'])},
+        # 'collaboration': {'description': "publications from large collaborations",
+        #                 'number': len(myarticles['collaboration'])},
+        # 'other': {'description': "other publications",
+        #         'number': len(myarticles['other'])},
         'hindex': {'description': "h-index", 'number': hindex},
         'ncite' : {'description': "number of citations (non-collaboration papers)", 'number': ncitations},
     }

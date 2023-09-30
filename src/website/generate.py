@@ -572,8 +572,8 @@ class Publications(Content):
 
         stats = meta['summary']
         nrefereed = stats['articles']['number']
-        ncolab = stats['collaboration']['number']
-        nother = stats['other']['number']
+        ncolab = 0#stats['collaboration']['number']
+        nother = 0#stats['other']['number']
         hindex = stats['hindex']['number']
         ncite = stats['ncite']['number']
 
@@ -629,33 +629,33 @@ class Publications(Content):
         if papers:
             content += paper_lst_fmt.format(year=year, lst='\n'.join(papers))
 
-        content += '<h4>Collaboration Articles</h4>'
-        papers = []
-        year = meta['collaboration'][0]['year']
-        for paperk in meta['collaboration']:
-            paper_ = Paper(paperk)
-            papers.append(paper_.to_html()\
-                            .replace('{icon}', get_icon("far fa-file-alt pub-icon") + " "))
-            if paper_['year'] != year:
-                content += paper_lst_fmt.format(year=year, lst='\n'.join(papers))
-                year = paper_['year']
-                papers = []
-        if papers:
-            content += paper_lst_fmt.format(year=year, lst='\n'.join(papers))
+        # content += '<h4>Collaboration Articles</h4>'
+        # papers = []
+        # year = meta['collaboration'][0]['year']
+        # for paperk in meta['collaboration']:
+        #     paper_ = Paper(paperk)
+        #     papers.append(paper_.to_html()\
+        #                     .replace('{icon}', get_icon("far fa-file-alt pub-icon") + " "))
+        #     if paper_['year'] != year:
+        #         content += paper_lst_fmt.format(year=year, lst='\n'.join(papers))
+        #         year = paper_['year']
+        #         papers = []
+        # if papers:
+        #     content += paper_lst_fmt.format(year=year, lst='\n'.join(papers))
 
-        content += '<h4>Other Articles</h4>'
-        papers = []
-        year = meta['other'][0]['year']
-        for paperk in meta['other']:
-            paper_ = Paper(paperk)
-            papers.append(paper_.to_html()\
-                            .replace('{icon}', get_icon("far fa-file-alt pub-icon") + " "))
-            if paper_['year'] != year:
-                content += paper_lst_fmt.format(year=year, lst='\n'.join(papers))
-                year = paper_['year']
-                papers = []
-        if papers:
-            content += paper_lst_fmt.format(year=year, lst='\n'.join(papers))
+        # content += '<h4>Other Articles</h4>'
+        # papers = []
+        # year = meta['other'][0]['year']
+        # for paperk in meta['other']:
+        #     paper_ = Paper(paperk)
+        #     papers.append(paper_.to_html()\
+        #                     .replace('{icon}', get_icon("far fa-file-alt pub-icon") + " "))
+        #     if paper_['year'] != year:
+        #         content += paper_lst_fmt.format(year=year, lst='\n'.join(papers))
+        #         year = paper_['year']
+        #         papers = []
+        # if papers:
+        #     content += paper_lst_fmt.format(year=year, lst='\n'.join(papers))
 
         template_full = template_full.replace('{{name}}', name)\
                                      .replace('{{title}}', "Publication List")\
@@ -963,7 +963,8 @@ class Generator(dict):
             template = f.read()
 
         # Some global information about self
-        fname = f'{root_dir}/aboutme.md'
+        #fname = f'{root_dir}/aboutme.md'
+        fname = f'{root_dir}/{header["title_info"]}.md'
         data = content_from_file(fname)
 
         # social links

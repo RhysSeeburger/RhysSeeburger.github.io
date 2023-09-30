@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: website
+Version: 0.0.1
+Summary: simplified website generator for my personal webpage
+Home-page: https://github.com/mfouesneau/mfouesneau.github.io
+Author: Morgan Fouesneau
+Author-email: fouesneau@mpia.de
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/mfouesneau/mfouesneau.github.io
+Project-URL: Sourse Code, https://github.com/mfouesneau/mfouesneau.github.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: importlib-metadata>=2.0; python_version < "3.8"
+Requires-Dist: markdown
+Requires-Dist: pyyaml
+Requires-Dist: ads@ git+https://github.com/Benjamin147/ads@dev-3.10
+Provides-Extra: docs
+Requires-Dist: markdown; extra == "docs"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# Personal Website
+
+[![GitHub last commit (gh-pages)](https://img.shields.io/github/last-commit/mfouesneau/mfouesneau.github.com/gh-pages?label=last%20build)](https://mfouesneau.github.io/)
+
+
+This repository contains the source code for my personal website.
+
+[mfouesneau.github.io](https://mfouesneau.github.io/)

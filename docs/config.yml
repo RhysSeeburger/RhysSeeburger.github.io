@@ -1,7 +1,7 @@
 # website name
-title: M. L. M. Fouesneau
+title: Rhys Seeburger
 # website URL
-baseURL: 'https://mfouesneau.github.io'
+baseURL: 'https://rhysseeburger.github.io'
 
 #theme
 theme: "default"
