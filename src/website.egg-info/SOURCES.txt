@@ -30,6 +30,7 @@ src/website/theme/section.html
 src/website/theme/services.html
 src/website/theme/testimonials.html
 src/website/theme/assets/.DS_Store
+src/website/theme/assets/css/style copy.css
 src/website/theme/assets/css/style.css
 src/website/theme/assets/img/apple-touch-icon.png
 src/website/theme/assets/img/favicon_morgan.png
