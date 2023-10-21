@@ -35,7 +35,7 @@ images:
       caption: |
         In 2020, I became a member of the Edinburgh University Sports Union Inclusion Committee, to advocate for equity and inclusion in university sports. Image Credit: EUSU
 
-    - url: /static/img/activism.JPG
+    - url: /static/img/activism.jpg
       caption: |
         Delegates of the NUS LGBT+ Conference 2018. I have participated in various conferences across the UK on LGBT+ inclusion (e.g. LGBTYS Youth Summit in Falkirk 2017, NUS LGBT+ Conference in Edinburgh 2018, among others)
 
