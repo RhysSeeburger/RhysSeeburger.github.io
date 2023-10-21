@@ -18,7 +18,7 @@ images:
     - url: /static/img/teaching.JPG
 
       caption: |
-        The BRUCE Telescope at MPIA, Heidelberg. As part of my PhD studies, I have been tutoring the "Fortgeschrittenen Praktikum" ("Advanced Practical") course at the University of Heidelberg, teaching Bachelor students about CCD photometry in modern Astronomy. I have also supervised the BOGY Internship of a highschool student at the Haus der Astronomie (House of Astronomy), and continue regular conversation by email with the student.
+        The BRUCE Telescope at MPIA, Heidelberg. As part of my PhD studies, I have been tutoring the "Fortgeschrittenen Praktikum" ("Advanced Practical") course at the University of Heidelberg, teaching Bachelor students about CCD photometry in modern Astronomy. I have also supervised the BOGY Internship of a highschool student at the Haus der Astronomie (House of Astronomy), and continue regular conversation by email with the student. Image: Yanu Khusanov@
 
     - url: /static/img/ogden.svg
       caption: |
