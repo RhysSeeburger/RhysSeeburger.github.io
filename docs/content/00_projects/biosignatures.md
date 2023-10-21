@@ -16,9 +16,12 @@ preview-image: static/img/rotated.jpeg
 
 # Image slideshow
 images:
-    - url: /static/img/rotated.jpeg
+    - url: /static/img/exoplanet.jpeg
       caption: |
         Artist's impression of a transiting exoplanet. Image Credit:ESO/L. Calçada
+    - url: /static/img/LvsH10.png
+      caption: |
+        Simulated spectra of an Archean Earth-like planet with varying methane concentrations as measured by a hypothetical 6m HabEx + StarShade mission and 6m LUVOIR B.
 
 information: |
     ### Methane Biosignatures on Archean Earth-like Exoplanets

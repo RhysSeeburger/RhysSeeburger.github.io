@@ -1,7 +1,7 @@
 ---
 type: aboutme
 active: true
-icon: bx bx-user
+icon: fa-solid fa-user
 
 #Display image
 headshot_image: static/img/face_profile_picture.png
@@ -50,12 +50,12 @@ social:
   link: https://github.com/rhysseeburger
 - icon: fab fa-linkedin big-icon
   link: https://www.linkedin.com/in/rhys-seeburger
-- icon: fas fa-university big-icon
-  link: https://www.mpia.de/person/114717/3378443
-- icon: fas fa-graduation-cap big-icon
-  link: https://www.imprs-hd.mpg.de/442140/Seeburger-Luzian
-- icon: fas fa-people-group big-icon
-  link: https://www.mpia.de/rix/team
+# - icon: fas fa-university big-icon
+#   link: https://www.mpia.de/person/114717/3378443
+# - icon: fas fa-graduation-cap big-icon
+#   link: https://www.imprs-hd.mpg.de/442140/Seeburger-Luzian
+# - icon: fas fa-people-group big-icon
+#   link: https://www.mpia.de/rix/team
 # Link to a PDF of your resume/CV.
 - icon: ai ai-cv big-icon
   link: static/docs/CV.pdf
@@ -76,7 +76,7 @@ contact:
     [seeburger<at>mpia.de](mailto:seeburger@mpia.de)
 ---
 
-Hello! I am Rhys Seeburger, also known as Luzian, and I am a PhD Student at the Max Planck Institute for Astronomy in Heidelberg, Germany, under the supervision of Hans-Walter Rix. I previously completed my MPhys in Astrophysics at the University of Edinburgh, Scotland, in 2021.
+Hello! I am Rhys Seeburger, also known as Luzian, and I am an <a href = "https://www.imprs-hd.mpg.de/442140/Seeburger-Luzian">IMPRS</a> PhD Student at the <a href = "https://www.mpia.de/person/114717/3378443">Max Planck Institute for Astronomy</a> in Heidelberg, Germany, in the <a href = "https://www.mpia.de/rix/team">group of Hans-Walter Rix</a>. I previously completed my MPhys in Astrophysics at the University of Edinburgh, Scotland, in 2021.
 My current work focuses on the detection and eventual characterisation of dark objects (such as non-accreting black holes) in the Milky Way Galaxy. As such, I (plan to) use spectroscopic, astrometric and photometric data to comprehensively search our home galaxy for these fascinating objects. Our goal is to learn more about the final stages of stellar evolution, especially for stars in multiple systems.
 
 I care a lot about Astronomy as a diverse and inclusive discipline, and as such am very engaged in Outreach and Activism. If you have ideas on how we can make the field more accessible, or even just tell the public about what we do, and want to collaborate, feel free to drop an Email.
@@ -95,7 +95,7 @@ I care a lot about Astronomy as a diverse and inclusive discipline, and as such 
 <div markdown="block">
 
 ### Skills
-* <i class="fas fa-code big-icon"></i>  Python (Intermediate), Julia, Bash, C++ (Beginner)
+* <i class="fas fa-code big-icon"></i>  Python (Intermediate), Julia, Bash, C++, ADQL (Beginner)
 * <i class="fas fa-chart-line big-icon"></i>  Matplotlib, Pandas, Numpy, Scipy, Scikit-learn, PyTorch
 * <i class="fa-brands fa-codepen big-icon"></i> VSCode, git, conda, WSL, Docker
 

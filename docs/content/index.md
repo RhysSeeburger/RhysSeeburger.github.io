@@ -10,10 +10,8 @@ content:
     - 00_publications
     - 00_talks
     - 00_cv
-    - 00_teaching
+    - 00_community
     - 00_outreach
-    - 00_representation
-    - 00_activism
     - 00_contact
 
 title_info: 00_about

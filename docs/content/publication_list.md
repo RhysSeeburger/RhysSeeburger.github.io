@@ -50,7 +50,7 @@ article:
   - Faigler, Simchon
   bibcode: 2023MNRAS.521.4323E
   category: article
-  citation_count: 18
+  citation_count: 24
   doctype: article
   identifier:
   - 10.1093/mnras/stad799
@@ -131,7 +131,7 @@ article:
   - Wojno, Jennifer
   bibcode: 2023MNRAS.518.1057E
   category: article
-  citation_count: 44
+  citation_count: 48
   doctype: article
   identifier:
   - 10.48550/arXiv.2209.06833
@@ -240,5 +240,5 @@ summary:
     number: 3
   ncite:
     description: number of citations (non-collaboration papers)
-    number: 94
+    number: 104
 ---

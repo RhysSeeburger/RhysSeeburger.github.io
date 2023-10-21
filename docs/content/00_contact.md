@@ -1,7 +1,7 @@
 ---
 type: contacts
 active: true
-icon: bx bx-envelope
+icon: fa-solid fa-envelope
 
 # Display name
 title: Contact
@@ -15,5 +15,5 @@ contact:
   title: Email
   email: seeburger@mpia.de
   description: |
-    [seeburger<at>mpia.de](mailto:seeburger@mpia.de)
+    [seeburger@mpia.de](mailto:seeburger@mpia.de)
 ---

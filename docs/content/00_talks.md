@@ -16,11 +16,11 @@ cv:
       columnwidth: 6
       icon: "fa-solid fa-atom"
     - category: EDI
-      title: "EDI"
+      title: "Equity, Diversity, and Inclusion"
       columnwidth: 6
       icon: "fa-solid fa-scale-balanced"
   scientific:
-    - title: Hunting for Dark Companions
+    - title: Taking Spectral Disentangling to the Industrial Scale
       where: EAS 2023, Krakow, Poland
       date: July 12th 2023
       keywords: ""
@@ -51,7 +51,7 @@ cv:
       date: July 14th 2023
       keywords: ""
       description: ""
-    - title: IDAHOBIT 2023
+    - title: International Day Against Homophobia, Biphobia and Transphobia 2023
       where: Max Planck Institute for Astronomy, Heidelberg, Germany
       date: May 17th, 2023
       keywords: ""
@@ -66,7 +66,7 @@ cv:
       date: Feb 18th, 2023
       keywords: ""
       description: ""
-    - title: EDI in Astronomy
+    - title: Equity, Diversity and Inclusion in Astronomy
       where: IMPRS Retreat, Salzburg, Austria
       date: Sept 10th, 2022
       keywords: ""
