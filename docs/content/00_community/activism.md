@@ -5,13 +5,13 @@ active: true
 # Display name
 title: Equity, Diversity and Inclusion
 
-url: static/img/activism.JPG
+url: static/img/activism.jpg
 brief: Making Astronomy a more inclusive place for all.
 
 keywords:
     - EDI
 
-preview-image: static/img/activism.JPG
+preview-image: static/img/activism.jpg
 
 # Image slideshow
 images:
