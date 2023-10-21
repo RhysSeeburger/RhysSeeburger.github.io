@@ -29,7 +29,7 @@ images:
 
     - url: /static/img/OuterSpace2.JPG
       caption: |
-        OUTer Space LGBT+ Outreach Day at the Haus der Astronomie, Heidelberg. Image Credit: Yanu Khusanov@
+        OUTer Space LGBT+ Outreach Day at the Haus der Astronomie, Heidelberg. Image Credit: Yanu Khusanova
 
     - url: /static/img/inclu.jpeg
       caption: |
