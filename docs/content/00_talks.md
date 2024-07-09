@@ -20,6 +20,11 @@ cv:
       columnwidth: 6
       icon: "fa-solid fa-scale-balanced"
   scientific:
+    - title: Autonomous Disentangling
+      where: GALAH Science Telecon
+      date: July 2nd 2024
+      keywords: ""
+      description: ""
     - title: Black Hole Companions
       where: GC Retreat 2024, Ringberg, Germany
       date: May 6th 2024
