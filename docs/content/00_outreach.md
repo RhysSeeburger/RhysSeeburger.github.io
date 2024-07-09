@@ -36,6 +36,11 @@ cv:
       keywords: ""
       description: <a href = "https://www.spektrum.de/inhaltsverzeichnis/radioteleskope-enthuellen-schatten-unseres-schwarzen-lochs-suw-7-22/1939135">Link</a>
   talks:
+    - title: Mein Nachbar, das Schwarze Loch
+      where: Faszination Astronomie, Haus der Astronomie, Heidelberg, Germany
+      date: May 2024
+      keywords: ""
+      description: ""
     - title: Das nächstgelegene Schwarze Loch
       where: MPIA Open Day, Heidelberg, Germany
       date: Oct 2023
