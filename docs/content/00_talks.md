@@ -20,6 +20,11 @@ cv:
       columnwidth: 6
       icon: "fa-solid fa-scale-balanced"
   scientific:
+    - title: Black Hole Companions
+      where: GC Retreat 2024, Ringberg, Germany
+      date: May 6th 2024
+      keywords: ""
+      description: ""
     - title: Taking Spectral Disentangling to the Industrial Scale
       where: EAS 2023, Krakow, Poland
       date: July 12th 2023
