@@ -15,6 +15,10 @@ preview-image: static/img/activism.jpg
 
 # Image slideshow
 images:
+    - url: /static/img/edi.jpg
+      caption: |
+        Since 2024, I have been on the Equality Committee at MPIA, working together with the Gender Equality Officer and others to advocate for Equity, Diversity and Inclusion at our Institute. <a href="https://www.freepik.com/free-vector/flat-youth-smiling-people-pattern_4741453.htm#fromView=search&page=1&position=17&uuid=1244ac06-012c-4e59-99c9-5f9c763eece2">Image by pikisuperstar on Freepik</a>
+        
     - url: /static/img/queerint.jpeg
       caption: |
         Since 2023, I have been co-leading the "Queer International Meet-Up Heidelberg" as part of the PLUS Charity's offer of groups and meetings for queer people in the region. Image Credit: PLUS Rhein-Neckar e.V.
@@ -51,6 +55,7 @@ information: |
 
 I care deeply about making Academia in General, and Science and specifically Astronomy in particular, a more welcoming environment for everyone. Some of the things I have done in this regard include:
 
+- Sitting on the Equality Committe at MPIA
 - Co-leading the "Queer International Meet-Up Heidelberg"
 - Organised "OUTer Space"
 - Organised a presentation at the Max Planck Institute for Astronomy for IDAHOBIT
