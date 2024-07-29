@@ -35,21 +35,16 @@ images:
 information: |
     ### Teaching and Mentoring
 
-    * Helping others to learn and grow.
+    Aside from reaching out to the general public and getting more people interested in Astronomy, I also enjoy engaging in teaching and tutoring. Some of the work I have done includes:
+
+    - Tutoring the "Fortgeschrittenen Praktikum" ("Advanced Practical") course at the University of Heidelberg
+    - Supervising the BOGY Internship of a highschool student at the Haus der Astronomie (House of Astronomy)
+    - Participating in the Ogden Trust's Teach Physics Internship
+    - Participating in the "Science Education Placement" at a high school in Edinburgh
+    - Tutoring students in Physics and Mathematics as a Physics Peer Mentor at the University of Edinburgh
+    - Tutoring students in various subjects as a freelance student tutor in secondary school
+
+    For more information, click through the slideshow.
 
 
 ---
-
-### Teaching and Mentoring
-
-Aside from reaching out to the general public and getting more people interested in Astronomy, I also enjoy engaging in teaching and tutoring. Some of the work I have done includes:
-
-- Tutoring the "Fortgeschrittenen Praktikum" ("Advanced Practical") course at the University of Heidelberg
-- Supervising the BOGY Internship of a highschool student at the Haus der Astronomie (House of Astronomy)
-- Participating in the Ogden Trust's Teach Physics Internship
-- Participating in the "Science Education Placement" at a high school in Edinburgh
-- Tutoring students in Physics and Mathematics as a Physics Peer Mentor at the University of Edinburgh
-- Tutoring students in various subjects as a freelance student tutor in secondary school
-
-For more information, click through the slideshow.
-
