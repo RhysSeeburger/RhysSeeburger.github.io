@@ -85,28 +85,28 @@ cv:
       keywords: ""
       description: ""
   # EDI:
-  #   - title: You Can't Be What You Can't See
-  #     where: EAS 2023, Krakow, Poland
-  #     date: July 14th 2023
-  #     keywords: ""
-  #     description: ""
-  #   - title: International Day Against Homophobia, Biphobia and Transphobia 2023
-  #     where: Max Planck Institute for Astronomy, Heidelberg, Germany
-  #     date: May 17th, 2023
-  #     keywords: ""
-  #     description: ""
-  #   - title: LGBTQIA+ in Astronomy
-  #     where: GC Retreat, Schöntal, Germany
-  #     date: May 9th, 2023
-  #     keywords: ""
-  #     description: ""
-  #   - title: LGBT+ Astronomy Icons
-  #     where: OUTer Space, Haus der Astronomie, Heidelberg, Germany
-  #     date: Feb 18th, 2023
-  #     keywords: ""
-  #     description: ""
-  #   - title: Equity, Diversity and Inclusion in Astronomy
-  #     where: IMPRS Retreat, Salzburg, Austria
-  #     date: Sept 10th, 2022
-  #     keywords: ""
-  #     description: ""
+    # - title: You Can't Be What You Can't See
+    #   where: EAS 2023, Krakow, Poland
+    #   date: July 14th 2023
+    #   keywords: ""
+    #   description: ""
+    # - title: International Day Against Homophobia, Biphobia and Transphobia 2023
+    #   where: Max Planck Institute for Astronomy, Heidelberg, Germany
+    #   date: May 17th, 2023
+    #   keywords: ""
+    #   description: ""
+    # - title: LGBTQIA+ in Astronomy
+    #   where: GC Retreat, Schöntal, Germany
+    #   date: May 9th, 2023
+    #   keywords: ""
+    #   description: ""
+    # - title: LGBT+ Astronomy Icons
+    #   where: OUTer Space, Haus der Astronomie, Heidelberg, Germany
+    #   date: Feb 18th, 2023
+    #   keywords: ""
+    #   description: ""
+    # - title: Equity, Diversity and Inclusion in Astronomy
+    #   where: IMPRS Retreat, Salzburg, Austria
+    #   date: Sept 10th, 2022
+    #   keywords: ""
+    #   description: ""
