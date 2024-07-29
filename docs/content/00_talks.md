@@ -20,16 +20,6 @@ cv:
       columnwidth: 6
       icon: "fa-solid fa-scale-balanced"
   scientific:
-    - title: Black Hole Imposters
-      where: From discovery to a population: benchmarking stripped stars and companions, Leiden, Netherlands
-      date: July 22nd 2024
-      keywords: ""
-      description: ""
-    - title: A detailed analysis of a sample of black hole impostoring (post-)mass-transfer binaries
-      where: The Eventful Life of Massive Star Multiples, Liege, Belgium
-      date: July 18th 2024
-      keywords: ""
-      description: ""
     - title: Autonomous Disentangling
       where: GALAH Science Telecon
       date: July 2nd 2024
@@ -53,6 +43,21 @@ cv:
     - title: Hunting for Dark Companions
       where: The Time Domain in the Era of Astronomical Big Data, WISE Observatory, Mitzpe Ramon, Israel
       date: March 1st, 2023
+      keywords: ""
+      description: ""
+    - title: Finding Black Holes that are actually Black
+      where: Galaxy Coffee, Max Planck institute for Astronomy, Heidelberg, Germany
+      date: Nov 30th, 2022
+      keywords: ""
+      description: ""
+    - title: Any Star could be a Binary
+      where: The Impact of Binaries on Stellar Evolution, Max Planck Institute for Astrophysics, Garching, Germany
+      date: Nov 18th, 2022
+      keywords: ""
+      description: ""
+    - title: Disentangling Composite Spectra
+      where: IMPRS Seminar, University of Heidelberg, Heidelberg, Germany
+      date: May 12th, 2022
       keywords: ""
       description: ""
   EDI:
