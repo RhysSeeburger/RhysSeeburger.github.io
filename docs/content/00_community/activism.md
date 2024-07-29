@@ -42,24 +42,20 @@ images:
 information: |
     ### Equity, Diversity and Inclusion
 
-    * Making Astronomy a more inclusive place for all.
+    I care deeply about making Academia in General, and Science and specifically Astronomy in particular, a more welcoming environment for everyone. Some of the things I have done in this regard include:
+
+    - Sitting on the Equality Committe at MPIA
+    - Co-leading the "Queer International Meet-Up Heidelberg"
+    - Organised "OUTer Space"
+    - Organised a presentation at the Max Planck Institute for Astronomy for IDAHOBIT
+    - Member of the Edinburgh University Sports Union Inclusion Committee
+    - Participated in various conferences across the UK on LGBT+ inclusion
+
+    For more information, click through the slideshow.
+
+    Further to these, during the Covid-19 pandemic, I set up LGBT+ lunch meetings at the School of Physics and Astronomy at the University of Edinburgh, to provide a safe space for LGBT+ students to meet and foster a sense of community. I am currently in the process of setting up a similar initiative at the University of Heidelberg.
+
+    I firmly believe that widening participation in Astronomy is crucial to the future of our field, and I am always keen to engage in initiatives to make this happen.
 
 
 ---
-
-### Equity, Diversity and Inclusion
-
-I care deeply about making Academia in General, and Science and specifically Astronomy in particular, a more welcoming environment for everyone. Some of the things I have done in this regard include:
-
-- Sitting on the Equality Committe at MPIA
-- Co-leading the "Queer International Meet-Up Heidelberg"
-- Organised "OUTer Space"
-- Organised a presentation at the Max Planck Institute for Astronomy for IDAHOBIT
-- Member of the Edinburgh University Sports Union Inclusion Committee
-- Participated in various conferences across the UK on LGBT+ inclusion
-
-For more information, click through the slideshow.
-
-Further to these, during the Covid-19 pandemic, I set up LGBT+ lunch meetings at the School of Physics and Astronomy at the University of Edinburgh, to provide a safe space for LGBT+ students to meet and foster a sense of community. I am currently in the process of setting up a similar initiative at the University of Heidelberg.
-
-I firmly believe that widening participation in Astronomy is crucial to the future of our field, and I am always keen to engage in initiatives to make this happen.
