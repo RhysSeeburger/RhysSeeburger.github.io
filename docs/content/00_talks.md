@@ -20,17 +20,17 @@ cv:
     #   columnwidth: 6
     #   icon: "fa-solid fa-scale-balanced"
     - category: twentytwentytwo
-      title: "2022"
+      title: ""
       columnwidth: 4
-      icon: "fa-solid fa-atom"
+      icon: ""
     - category: twentytwentythree
-      title: "2023"
+      title: ""
       columnwidth: 4
-      icon: "fa-solid fa-atom"
+      icon: ""
     - category: twentytwentyfour
-      title: "2024"
+      title: ""
       columnwidth: 4
-      icon: "fa-solid fa-atom"
+      icon: ""
   twentytwentyfour:
     - title: Black Hole Imposters
       where: From discovery to a population; benchmarking stripped stars and companions, Leiden, Netherlands
