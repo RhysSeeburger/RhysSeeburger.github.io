@@ -24,5 +24,6 @@ information: |
 
     * Using my platform to share the voices of others is very important to me. I have been involved in a number of talks and panels on Equity, Diversity, and Inclusion in academia. These include:
 
----
+    You Cant be what you Cant See
 
+---
