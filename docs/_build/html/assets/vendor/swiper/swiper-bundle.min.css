@@ -689,6 +689,6 @@ button.swiper-pagination-bullet {
     overflow: hidden
 }
 
-.swiper-wrapper {
+/* .swiper-wrapper {
     transition-duration: 1000000ms !important;
-}
+} */
