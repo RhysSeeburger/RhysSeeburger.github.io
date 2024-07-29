@@ -19,10 +19,10 @@ images:
       caption: |
         Image Credit: Evert Nasedkin
 
-information: |
-    ### EDI Talks
+# information: |
+#     ### EDI Talks
 
-    * Educating and Sharing Voices
+#     * Educating and Sharing Voices
 
 
 ---
