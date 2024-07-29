@@ -690,5 +690,5 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-wrapper {
-    transition-duration: 1000ms !important;
+    transition-duration: 1000000ms !important;
 }
