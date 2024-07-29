@@ -12,11 +12,11 @@ cv:
   setup:
     # defines the columns of the section
     - category: scientific
-    title: 
+    title: ""
     columnwidth: 6
     icon: 
     - category: EDI
-    title: 
+    title: ""
     columnwidth: 6
     icon: 
   scientific:
