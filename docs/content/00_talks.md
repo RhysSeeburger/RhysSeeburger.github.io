@@ -30,6 +30,11 @@ cv:
       date: May 6th 2024
       keywords: ""
       description: ""
+    - title: Hunting for Dark Companions
+      where: Stellar Astrophysics in the Era of Gaia, Spectroscopic, and Asteroseismic Surveys, Garching, Germany
+      date: August 24th 2023
+      keywords: ""
+      description: ""
     - title: Taking Spectral Disentangling to the Industrial Scale
       where: EAS 2023, Krakow, Poland
       date: July 12th 2023
