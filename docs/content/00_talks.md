@@ -19,14 +19,6 @@ cv:
     title: 
     columnwidth: 6
     icon: 
-    #- category: scientific
-    #  title: "Scientific"
-    #  columnwidth: 6
-    #  icon: "fa-solid fa-atom"
-    #- category: EDI
-    #  title: "Equity, Diversity, and Inclusion"
-    #  columnwidth: 6
-    #  icon: "fa-solid fa-scale-balanced"
   scientific:
     - title: Black Hole Imposters
       where: From discovery to a population: benchmarking stripped stars and companions, Leiden, Netherlands
