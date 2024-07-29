@@ -12,24 +12,14 @@ cv:
   setup:
     # defines the columns of the section
     - category: scientific
-    title: "foo"
-    columnwidth: 6
-    icon: "fa-solid fa-atom"
+      title: "Scientific"
+      columnwidth: 6
+      icon: "fa-solid fa-atom"
     - category: EDI
-    title: "bar"
-    columnwidth: 6
-    icon: "fa-solid fa-scale-balanced"
+      title: "Equity, Diversity, and Inclusion"
+      columnwidth: 6
+      icon: "fa-solid fa-scale-balanced"
   scientific:
-    - title: Black Hole Imposters
-      where: From discovery to a population: benchmarking stripped stars and companions, Leiden, Netherlands
-      date: July 22nd 2024
-      keywords: ""
-      description: ""
-    - title: A detailed analysis of a sample of black hole impostoring (post-)mass-transfer binaries
-      where: The Eventful Life of Massive Star Multiples, Liege, Belgium
-      date: July 18th 2024
-      keywords: ""
-      description: ""
     - title: Autonomous Disentangling
       where: GALAH Science Telecon
       date: July 2nd 2024
