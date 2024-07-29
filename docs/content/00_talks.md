@@ -19,16 +19,19 @@ cv:
     #   title: "Equity, Diversity, and Inclusion"
     #   columnwidth: 6
     #   icon: "fa-solid fa-scale-balanced"
-    - category: 2022
+    - category: twentytwentytwo
       title: "2022"
       columnwidth: 4
       icon: "fa-solid fa-atom"
-    - category: 2023
+    - category: twentytwentythree
       title: "2023"
       columnwidth: 4
       icon: "fa-solid fa-atom"
-    - category: 2024
-  2024:
+    - category: twentytwentyfour
+      title: "2024"
+      columnwidth: 4
+      icon: "fa-solid fa-atom"
+  twentytwentyfour:
     - title: Black Hole Imposters
       where: From discovery to a population; benchmarking stripped stars and companions, Leiden, Netherlands
       date: July 22nd 2024
@@ -49,7 +52,7 @@ cv:
       date: May 6th 2024
       keywords: ""
       description: ""
-  2023:
+  twentytwentythree:
     - title: Hunting for Dark Companions
       where: Stellar Astrophysics in the Era of Gaia, Spectroscopic, and Asteroseismic Surveys, Garching, Germany
       date: August 24th 2023
@@ -65,7 +68,7 @@ cv:
       date: March 1st, 2023
       keywords: ""
       description: ""
-  2022:
+  twentytwentytwo:
     - title: Finding Black Holes that are actually Black
       where: Galaxy Coffee, Max Planck institute for Astronomy, Heidelberg, Germany
       date: Nov 30th, 2022
