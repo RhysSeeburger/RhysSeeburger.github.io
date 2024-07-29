@@ -14,11 +14,11 @@ cv:
     - category: scientific
     title: ""
     columnwidth: 6
-    icon: ""
+    icon: "fa-solid fa-atom"
     - category: EDI
     title: ""
     columnwidth: 6
-    icon: ""
+    icon: "fa-solid fa-atom"
   scientific:
     - title: Black Hole Imposters
       where: From discovery to a population: benchmarking stripped stars and companions, Leiden, Netherlands
