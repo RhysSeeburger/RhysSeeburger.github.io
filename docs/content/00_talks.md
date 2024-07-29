@@ -21,15 +21,15 @@ cv:
     #   icon: "fa-solid fa-scale-balanced"
     - category: twentytwentytwo
       title: "2022"
-      columnwidth: 3.5
+      columnwidth: 3
       icon: ""
     - category: twentytwentythree
       title: "2023"
-      columnwidth: 3.5
+      columnwidth: 3
       icon: ""
     - category: twentytwentyfour
       title: "2024"
-      columnwidth: 5
+      columnwidth: 6
       icon: ""
   twentytwentyfour:
     - title: Black Hole Imposters
