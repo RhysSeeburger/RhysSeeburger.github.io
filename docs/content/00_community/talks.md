@@ -6,7 +6,7 @@ active: true
 title: EDI Talks
 
 url: static/img/OuterSpace.jpg
-brief: Sharing Voices
+brief: Educating and Sharing Voices
 
 keywords:
     - EDI
@@ -22,7 +22,7 @@ images:
 information: |
     ### EDI Talks
 
-    * Sharing Voices
+    * Educating and Sharing Voices
 
 
 ---
