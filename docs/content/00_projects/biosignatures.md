@@ -26,11 +26,6 @@ images:
 information: |
     ### Methane Biosignatures on Archean Earth-like Exoplanets
 
-    * How difficult is our search for life on other planets?
-
+    In the summer of 2020, I completed a research project at the University of Edinburgh under the supervision of Pete Higgins, Niall Whiteford and Charles Cockell. We explored the efficacy of methane as a biosignature on an exoplanet similar to ancient Earth. Such a planet would likely be geologically active, leading to the presence of potentially many hydrothermal vents. These vents present an excellent environment for methanogens, small organisms that produce methane as a by-product of their metabolism. We explored the parameters controlling the amount of methane produced (such as total hydrothermal vent coverage and nutrient inflow) with the biological modelling code NutMEG. Then, we used the NASA Planetary Spectrum Generator to determine the conditions under which it would be detectable from Earth using next generation telescopes, such as HabEx and LUVOIR.
 
 ---
-
-### Methane Biosignatures on Archean Earth-like Exoplanets
-
-In the summer of 2020, I completed a research project at the University of Edinburgh under the supervision of Pete Higgins, Niall Whiteford and Charles Cockell. We explored the efficacy of methane as a biosignature on an exoplanet similar to ancient Earth. Such a planet would likely be geologically active, leading to the presence of potentially many hydrothermal vents. These vents present an excellent environment for methanogens, small organisms that produce methane as a by-product of their metabolism. We explored the parameters controlling the amount of methane produced (such as total hydrothermal vent coverage and nutrient inflow) with the biological modelling code NutMEG. Then, we used the NASA Planetary Spectrum Generator to determine the conditions under which it would be detectable from Earth using next generation telescopes, such as HabEx and LUVOIR.
