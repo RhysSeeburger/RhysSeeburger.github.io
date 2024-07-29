@@ -20,15 +20,15 @@ cv:
     #   columnwidth: 6
     #   icon: "fa-solid fa-scale-balanced"
     - category: twentytwentytwo
-      title: ""
+      title: "2022"
       columnwidth: 4
       icon: ""
     - category: twentytwentythree
-      title: ""
+      title: "2023"
       columnwidth: 4
       icon: ""
     - category: twentytwentyfour
-      title: ""
+      title: "2024"
       columnwidth: 4
       icon: ""
   twentytwentyfour:
