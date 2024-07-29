@@ -27,7 +27,7 @@ images:
       caption: |
         For the International Day against Homophobia, Biphobia and Transphobia (IDAHOBIT) 2023 I organised a presentation at the Max Planck Institute for Astronomy, inviting Emily Hunt to speak about her experience with activism for greater LGBT+ inclusion within Astronomy. Image Credit: Evert Nasedkin
 
-    - url: /static/img/OuterSpace2.jpg
+    - url: /static/img/OuterSpace2.JPG
       caption: |
         In February 2023, I organised "OUTer Space", an LGBT+ Outreach day at the Haus der Astronomie (House of Astronomy) in Heidelberg. I planned, organised, and executed the day consisting of a planetarium show, tours of the telescopes, the stellar model, as well as talks from LGBT+ Scientists and Allies and a Q&A Panel. Image Credit: Yanu Khusanova
 
