@@ -12,11 +12,11 @@ cv:
   setup:
     # defines the columns of the section
     - category: scientific
-    title: ""
+    title: "foo"
     columnwidth: 6
     icon: "fa-solid fa-atom"
     - category: EDI
-    title: ""
+    title: "bar"
     columnwidth: 6
     icon: "fa-solid fa-atom"
   scientific:
