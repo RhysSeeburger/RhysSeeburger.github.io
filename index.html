@@ -1,110 +1,828 @@
-
 <!DOCTYPE html>
+<html lang="en">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8" />
-    <title>Welcome to No Errors Test Project’s documentation! &#8212; No Errors Test Project  documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-   
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  </head><body>
-  
+  <title>Rhys Seeburger</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-          <div class="body" role="main">
-            
-  <div class="section" id="welcome-to-no-errors-test-project-s-documentation">
-<h1>Welcome to No Errors Test Project’s documentation!<a class="headerlink" href="#welcome-to-no-errors-test-project-s-documentation" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-</div>
-</div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
-</div>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-          </div>
-          
-        </div>
+  <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin=anonymous media=print onload="this.media='all'">
+  <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
+  <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <script type="text/javascript" id="MathJax-config">
+    MathJax = {
+      loader: {
+      load: ['ui/menu', '[tex]/all-packages', '[tex]/physics',
+              '[tex]/ams', '[tex]/gensymb', '[tex]/noundefined',
+              '[tex]/noerrors']
+      },
+      tex: {
+      packages: {'[+]': ['physics', 'ams', 'gensymb', 'noundefined']},
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      processEscapes: false,
+      noundefined: {
+          color: 'red',
+          background: '',
+          size: ''
+      }
+      },
+    };
+  </script>
+
+  <script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Inspired by Bootstrap template MyResume - v4.7.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
+        <li><a class="nav-link scrollto" href="#00_about"><i class="fa-solid fa-user"></i><span>About Me</span></a></li>
+<li><a class="nav-link scrollto" href="#00_research"><i class="fa-solid fa-atom"></i><span>Research</span></a></li>
+<li><a class="nav-link scrollto" href="#00_publications"><i class="fa-solid fa-book-open"></i><span>Recent Publications</span></a></li>
+<li><a class="nav-link scrollto" href="#00_talks"><i class="fa-solid fa-person-chalkboard"></i><span>Talks</span></a></li>
+<li><a class="nav-link scrollto" href="#00_cv"><i class="fa-solid fa-file"></i><span>Resume</span></a></li>
+<li><a class="nav-link scrollto" href="#00_community"><i class="fa-solid fa-handshake"></i><span>Community Engagement</span></a></li>
+<li><a class="nav-link scrollto" href="#00_outreach"><i class="fa-solid fa-users"></i><span>Outreach</span></a></li>
+<li><a class="nav-link scrollto" href="#00_contact"><i class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center" style="background-image: url(static/img/bg.jpg);">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Rhys Seeburger</h1>
+      <p>I am <span class="typed" data-typed-items="a PhD Student in Astronomy, passionate about Outreach, an advocate for EDI in STEM, an avid Python user"></span></p>
+      <div class="social-links">
+        <a href="/#00_contact" target="_blank"><i class="fas fa-envelope big-icon"></i></a>
+<a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8898-9463" target="_blank"><i class="ai ai-ads big-icon"></i></a>
+<a href="https://arxiv.org/search/?query=seeburger&searchtype=author" target="_blank"><i class="ai ai-arxiv big-icon"></i></a>
+<a href="https://orcid.org/0000-0001-8898-9463" target="_blank"><i class="fab fa-orcid big-icon"></i></a>
+<a href="https://github.com/rhysseeburger" target="_blank"><i class="fab fa-github big-icon"></i></a>
+<a href="https://www.linkedin.com/in/rhys-seeburger" target="_blank"><i class="fab fa-linkedin big-icon"></i></a>
+<a href="static/docs/CV.pdf" target="_blank"><i class="ai ai-cv big-icon"></i></a>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="#">No Errors Test Project</a></h1>
+    </div>
+  </section><!-- End Hero -->
 
-
-
-
-
-
-
-
-<h3>Navigation</h3>
-
-<div class="relations">
-<h3>Related Topics</h3>
+  <main id="main">
+    <!-- ======= Sections ======= -->
+    <!-- ======= About Section ======= -->
+<section id="00_about" class="about">
+    <div class="container" data-aos="fade-up">
+        <div class="row" style="align-items: center;">
+            <div class="col-lg-4">
+                <div
+                    style="text-align: center; width: 100%; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                    <img src="static/img/face_profile_picture.png" class="img-fluid avatar" alt="" style="max-width: 300px;">
+                    <h2 style="margin: 20px 0 10px">Rhys Seeburger</h2>
+                    <h3 style="font-size: 1rem; font-weight: 300; color: rgba(0,0,0,.54); margin: 0 0 10px;">PhD Student in Astronomy
+                    </h3>
+                    <a href="https://www.mpia.de/en" target="_blank">Max Planck Institute for Astronomy</a>
+                    <div class="social-links" style="font-size:xx-large;">
+                        <a href="/#00_contact" target="_blank"><i class="fas fa-envelope big-icon"></i></a>
+<a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8898-9463" target="_blank"><i class="ai ai-ads big-icon"></i></a>
+<a href="https://arxiv.org/search/?query=seeburger&searchtype=author" target="_blank"><i class="ai ai-arxiv big-icon"></i></a>
+<a href="https://orcid.org/0000-0001-8898-9463" target="_blank"><i class="fab fa-orcid big-icon"></i></a>
+<a href="https://github.com/rhysseeburger" target="_blank"><i class="fab fa-github big-icon"></i></a>
+<a href="https://www.linkedin.com/in/rhys-seeburger" target="_blank"><i class="fab fa-linkedin big-icon"></i></a>
+<a href="static/docs/CV.pdf" target="_blank"><i class="ai ai-cv big-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                </div>
+                <p>Hello! I am Rhys Seeburger, also known as Luzian, and I am an <a href = "https://www.imprs-hd.mpg.de/442140/Seeburger-Luzian">IMPRS</a> PhD Student at the <a href = "https://www.mpia.de/person/114717/3378443">Max Planck Institute for Astronomy</a> in Heidelberg, Germany, in the <a href = "https://www.mpia.de/rix/team">group of Hans-Walter Rix</a>. I previously completed my MPhys in Astrophysics at the University of Edinburgh, Scotland, in 2021.
+My current work focuses on the detection and eventual characterisation of dark objects (such as non-accreting black holes) in the Milky Way Galaxy. As such, I (plan to) use spectroscopic, astrometric and photometric data to comprehensively search our home galaxy for these fascinating objects. Our goal is to learn more about the final stages of stellar evolution, especially for stars in multiple systems.</p>
+<p>I care a lot about Astronomy as a diverse and inclusive discipline, and as such am very engaged in Outreach and Activism. If you have ideas on how we can make the field more accessible, or even just tell the public about what we do, and want to collaborate, feel free to drop an Email.</p>
+<div style="display:flex;justify-content: space-between;flex-wrap: wrap; flex-direction: row;">
+<div>
+<h3>Interests</h3>
 <ul>
-  <li><a href="#">Documentation overview</a><ul>
-  </ul></li>
+<li>Binary stars &amp; Stellar evolution</li>
+<li>Spectroscopy</li>
+<li>Equity, Diversity and Inclusion</li>
+<li>Outreach and Teaching</li>
 </ul>
 </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
-      <input type="submit" value="Go" />
-    </form>
-    </div>
+<div>
+<h3>Skills</h3>
+<ul>
+<li><i class="fas fa-code big-icon"></i>  Python (Intermediate), Julia, Bash, C++, ADQL (Beginner)</li>
+<li><i class="fas fa-chart-line big-icon"></i>  Matplotlib, Pandas, Numpy, Scipy, Scikit-learn, PyTorch</li>
+<li><i class="fa-brands fa-codepen big-icon"></i> VSCode, git, conda, WSL, Docker</li>
+</ul>
 </div>
-<script>$('#searchbox').show(0);</script>
+</div>
+            </div>
+        </div>
+    </div>
+</section><!-- End About Section -->
+<!-- ======= Portfolio Section ======= -->
+<section id="00_research" class="portfolio section-bg">
+    <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+            <h2>Research</h2>
+            <p></p>
+        </div>
 
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <ul id="portfolio-flters">
+                    <!-- <li data-filter=".filter-{{keyword.lower}}">{{keyword}}</li> -->
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-PhD">PhD</li>
+<li data-filter=".filter-UGrad">UGrad</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
+        <!-- Portfolio item template
+          <div class="col-lg-4 col-md-6 portfolio-item filter-{{keyword}}">
+            <div class="portfolio-wrap">
+              <img src="{{preview-image}}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{{item-title}}</h4>
+                <p>{{item-brief}}</p>
+                <div class="portfolio-links">
+                  <a href="{{preview-image}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{item-title}}"><i class="bx bx-plus"></i></a>
+                  <a href="{{item-details-htmlfile}}" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Stellar Astrophysics filter-Spectroscopy filter-Gaia filter-Black Holes filter-Binaries filter-PhD">
+                <div class="portfolio-wrap" style="background:rgba(255,255,255,0);">
+                <img src="static/img/kareem_bh_closeup_star_behind.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Hunting for Dark Companions</h4>
+                    <p><p>Finding the elusive dormant stellar mass black holes in the Milky Way.</p></p>
+                    <div class="portfolio-links">
+                    <a href="static/img/kareem_bh_closeup_star_behind.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Hunting for Dark Companions"><i class="bx bx-plus"></i></a>
+                    <a href="00_projects/disentangling.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Cosmology filter-UGrad">
+                <div class="portfolio-wrap" style="background:rgba(255,255,255,0);">
+                <img src="static/img/cnn2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Weak Lensing Cosmology with Machine Learning</h4>
+                    <p><p>Cosmological parameter estimation using convolutional neural networks.</p></p>
+                    <div class="portfolio-links">
+                    <a href="static/img/cnn2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Weak Lensing Cosmology with Machine Learning"><i class="bx bx-plus"></i></a>
+                    <a href="00_projects/lensing.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Spectroscopy filter-UGrad">
+                <div class="portfolio-wrap" style="background:rgba(255,255,255,0);">
+                <img src="static/img/rotated.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Methane Biosignatures on Archean Earth-like Exoplanets</h4>
+                    <p><p>How difficult is our search for life on other planets?</p></p>
+                    <div class="portfolio-links">
+                    <a href="static/img/rotated.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Methane Biosignatures on Archean Earth-like Exoplanets"><i class="bx bx-plus"></i></a>
+                    <a href="00_projects/biosignatures.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+        </div>
 
+    </div>
+</section><!-- End Portfolio Section -->
+<!-- ======= Publication Section ======= -->
+<style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{border-style:solid;border-width:0px;overflow:hidden; padding:0px 1px;word-break:normal;}
+    .tg th{border-style:solid;border-width:0px;overflow:hidden; padding:0px 1px;word-break:normal;}
+    .tg .tg-dvpl{border-color:inherit;text-align:right;vertical-align:top}
+    .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<section id="00_publications" class="resume">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2>Recent Publications</h2>
+        </div>
+        <div style="display: flex;">
+            <div class="col-lg-3">
+                <h4>
+                    <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0001-8898-9463" target="_blank"><i class="ai ai-ads big-icon"></i> ADS Search</a>
+<br><a href="https://arxiv.org/search/?query=seeburger&searchtype=author" target="_blank"><i class="ai ai-arxiv big-icon"></i> Arxiv Search</a>
+                </h4>
+                <br>
+                <table class="tg">
+                    <colgroup>
+                        <col style="width: 3rem;">
+                        <col style="width: auto;">
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <th class="tg-dvpl"></th>
+                        <th class="tg-0pky">h-index: 3</th>
+                      </tr>
+                      <tr>
+                        <td class="tg-dvpl">9</td>
+                        <td class="tg-0pky">refereed publications</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-dvpl">0</td>
+                        <td class="tg-0pky">publications from large collaborations</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-dvpl">0</td>
+                        <td class="tg-0pky">other publications</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-dvpl">248</td>
+                        <td class="tg-0pky">citations<br>(<i>from non-collaboration papers</i>)</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h4><a href="publication-list.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i>View all publications</a></h4>
+            </div>
+
+            <div class="col-lg-8">
+                <p><em>Showing 5 most recent non-collaboration articles from ADS</em></p>
+<div class="resume-item">
+<h5>2024</h5>
+<ul style="list-style: none;">
+<li><i class="far fa-file-alt pub-icon"></i> <strong>"What is the Role of Large Language Models in the Evolution of Astronomy Research?"</strong><br>Fouesneau, M., Momcheva, I. G., Chadayammuri, U., Demianenko, M., Dumont, A., Hviding, R. E., Kahle, K. A., Pulatova, N., Rajpoot, B., Scheuck, M. B., <strong>Seeburger, R.</strong>, Semenov, D., Villaseñor, J. I., 2024, arXiv e-prints, - [0 citations]<br> <a href=https://ui.adsabs.harvard.edu/abs/2024arXiv240920252F>2024arXiv240920252F</a>
+<li><i class="far fa-file-alt pub-icon"></i> <strong>"What excites the optical emission in X-ray-selected galaxies?"</strong><br>Pulatova, N. G., Rix, H.-W., Tugay, A. V., Zadorozhna, L. V., <strong>Seeburger, R.</strong>, Demianenko, M., 2024, Astronomy and Astrophysics, A223 [0 citations]<br> <a href=https://ui.adsabs.harvard.edu/abs/2024A&A...686A.223P>2024A&A...686A.223P</a>
+<li><i class="far fa-file-alt pub-icon"></i> <strong>"Autonomous disentangling for spectroscopic surveys"</strong><br><strong>Seeburger, R.</strong>, Rix, H.-W., El-Badry, K., Xiang, M., Fouesneau, M., 2024, Monthly Notices of the Royal Astronomical Society, 1935 [1 citations]<br> <a href=https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.1935S>2024MNRAS.530.1935S</a>
+<li><i class="far fa-file-alt pub-icon"></i> <strong>"The Age Distribution of Stellar Orbit Space Clumps"</strong><br>Fürnkranz, V., Rix, H.-W., Coronado, J., <strong>Seeburger, R.</strong>, 2024, The Astrophysical Journal, 113 [1 citations]<br> <a href=https://ui.adsabs.harvard.edu/abs/2024ApJ...961..113F>2024ApJ...961..113F</a>
+<li><i class="far fa-file-alt pub-icon"></i> <strong>"A red giant orbiting a black hole"</strong><br>El-Badry, K., Rix, H.-W., Cendes, Y., Rodriguez, A. C., Conroy, C., Quataert, E., Hawkins, K., Zari, E., Hobson, M., Breivik, K., Rau, A., Berger, E., Shahaf, S., <strong>Seeburger, R.</strong>, Burdge, K. B., Latham, D. W., Buchhave, L. A., Bieryla, A., Bashi, D., Mazeh, T., Faigler, S., 2023, Monthly Notices of the Royal Astronomical Society, 4323 [87 citations]<br> <a href=https://ui.adsabs.harvard.edu/abs/2023MNRAS.521.4323E>2023MNRAS.521.4323E</a>
+<ul>
+</div>
+            </div>
 
         </div>
+    </div>
+</section><!-- End Resume Section -->
+<!-- ======= Resume Section ======= -->
+<section id="00_talks" class="resume">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Talks</h2>
+            
+        </div>
+
+        <div class="row">
+            
+            <div class="col-lg-3">
+                <h3 class="resume-title"><i class=""></i> 2022</h3>
+                
+            <div class="resume-item">
+                <h5>Nov 30th, 2022</h5>
+                <h4>Finding Black Holes that are actually Black</h4>
+                <p><em>Galaxy Coffee, Max Planck institute for Astronomy, Heidelberg, Germany</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>Nov 18th, 2022</h5>
+                <h4>Any Star could be a Binary</h4>
+                <p><em>The Impact of Binaries on Stellar Evolution, Max Planck Institute for Astrophysics, Garching, Germany</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>May 12th, 2022</h5>
+                <h4>Disentangling Composite Spectra</h4>
+                <p><em>IMPRS Seminar, University of Heidelberg, Heidelberg, Germany</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+            </div>
+            
+
+
+            <div class="col-lg-3">
+                <h3 class="resume-title"><i class=""></i> 2023</h3>
+                
+            <div class="resume-item">
+                <h5>August 24th 2023</h5>
+                <h4>Hunting for Dark Companions</h4>
+                <p><em>Stellar Astrophysics in the Era of Gaia, Spectroscopic, and Asteroseismic Surveys, Garching, Germany</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>July 12th 2023</h5>
+                <h4>Taking Spectral Disentangling to the Industrial Scale</h4>
+                <p><em>EAS 2023, Krakow, Poland</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>March 1st, 2023</h5>
+                <h4>Hunting for Dark Companions</h4>
+                <p><em>The Time Domain in the Era of Astronomical Big Data, WISE Observatory, Mitzpe Ramon, Israel</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+            </div>
+            
+
+
+            <div class="col-lg-6">
+                <h3 class="resume-title"><i class=""></i> 2024</h3>
+                
+            <div class="resume-item">
+                <h5>October 3rd 2024</h5>
+                <h4>A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)</h4>
+                <p><em>IvS Seminar, KU Leuven, Belgium</em></p>
+                <p>https://www.youtube.com/watch?v=a0TlI5aDLqY</p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>July 22nd 2024</h5>
+                <h4>Black Hole Imposters</h4>
+                <p><em>From discovery to a population; benchmarking stripped stars and companions, Leiden, Netherlands</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>July 18th 2024</h5>
+                <h4>A detailed analysis of a sample of black hole impostoring (post) mass transfer binaries</h4>
+                <p><em>The Eventful Life of Massive Star Multiples, Liege, Belgium</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>July 2nd 2024</h5>
+                <h4>Autonomous Disentangling</h4>
+                <p><em>GALAH Science Telecon</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>May 6th 2024</h5>
+                <h4>Black Hole Companions</h4>
+                <p><em>GC Retreat 2024, Ringberg, Germany</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+            </div>
+            
+            <!--  content template
+            <div class="col-lg-{{columwidth}}">
+                <h3 class="resume-title">{{item-title}}</h3>
+                {{item-content}}
+            </div>
+            -->
+        </div>
+
+    </div>
+</section><!-- End Resume Section -->
+<!-- ======= Resume Section ======= -->
+<section id="00_cv" class="resume">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Resume</h2>
+            
+        </div>
+
+        <div class="row">
+            
+            <div class="col-lg-4">
+                <h3 class="resume-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                
+            <div class="resume-item">
+                <h5>2021 - present</h5>
+                <h4>PhD Candidate in Astronomy</h4>
+                <p><em>Max Planck Institute for Astronomy, Heidelberg, Germany</em></p>
+                <p>PhD project supervised by Hans-Walter Rix (MPIA) and Kareem El-Badry (CfA - Harvard Smithonian) on finding compact objects in binary systems in the Milky Way.</p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);">Python, Binary Stars, Compact Objects, Spectroscopy</p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>2021</h5>
+                <h4>MPhys degree in Astrophysics</h4>
+                <p><em>University of Edinburgh, UK</em></p>
+                <p>MPhys project with Catherine Heymans and Benjamin Giblin, using Convolutional Neural Networks to infer cosmological parameters from weak lensing shear maps.</p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);">Python, Cosmology, Weak Lensing, Machine Learning</p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>2016</h5>
+                <h4>Matura, Sacre Coeur Wien</h4>
+                <p><em>Vienna, Austria</em></p>
+                <p>High school diploma from Sacre Coeur Wien, Vienna, Austria. Graduated with 1.0 average (highest possible grade) in English, German, Mathematics, Physics and Informatics. Prescientific paper on the topic of "The Double Slit Experiment - Modern Quantum Physics" with a grade of 1.0.</p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+            </div>
+            
+
+
+            <div class="col-lg-8">
+                <h3 class="resume-title"><i class="fa-solid fa-users"></i> Outreach Experience</h3>
+                
+            <div class="resume-item">
+                <h5>Jun 2023 & Jun 2024</h5>
+                <h4>Explore Science Volunteer</h4>
+                <p><em>Explore Science, Herzogenriedpark, Mannheim</em></p>
+                <p>Volunteering at the Explore Science event in Mannheim, Germany. I helped run the combined Max Planck Institute for Astronomy, Max Planck Institute for Nuclear Physics, and Haus der Astronomie stand, where we had a variety of hands-on activities for Astronomy fans of all ages.</p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>2022 - present</h5>
+                <h4>Outreach Fellow</h4>
+                <p><em>Max Planck Institute for Astronomy & Haus der Astronomie, Heidelberg, Germany</em></p>
+                <p>Conducting public outreach tours at the Haus der Astronomie, as well as supporting the staff at Haus der Astronomie with their outreach events.</p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>Feb 2023</h5>
+                <h4>Organiser, OUTer Space</h4>
+                <p><em>Haus der Astronomie, Heidelberg, Germany</em></p>
+                <p>Outreach event for LGBT+ people and allies, consisting of a planetarium show, tours of the telescopes, the stellar model, as well as talks from LGBT+ Scientists and Allies and a Q&amp;A Panel.</p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>Oct 2022</h5>
+                <h4>Visiting Scientist, Tag der Naturwissenschaften</h4>
+                <p><em>Experimenta Science Center, Heilbronn, Germany</em></p>
+                <p>Large scale outreach event for the general public at the Experimenta Science Center in Heilbronn, Germany. I was interviewed about my studies and work as an Astronomer, answering questions from attending high school students.</p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>Apr 2018</h5>
+                <h4>Science Communicator, Edinburgh Science Festival</h4>
+                <p><em>Edinburgh, UK</em></p>
+                <p>Two-week long science communication event in Edinburgh, UK. I was responsible for explaining the science behind a variety of exhibits to the general public, primarily aimed at families with children.</p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+            </div>
+            
+            <!--  content template
+            <div class="col-lg-{{columwidth}}">
+                <h3 class="resume-title">{{item-title}}</h3>
+                {{item-content}}
+            </div>
+            -->
+        </div>
+
+    </div>
+</section><!-- End Resume Section -->
+<!-- ======= Portfolio Section ======= -->
+<section id="00_community" class="portfolio section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Community Engagement</h2>
+            <p></p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <ul id="portfolio-flters">
+                    <!-- <li data-filter=".filter-{{keyword.lower}}">{{keyword}}</li> -->
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-EDI">EDI</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- Portfolio item template
+          <div class="col-lg-4 col-md-6 portfolio-item filter-{{keyword}}">
+            <div class="portfolio-wrap">
+              <img src="{{preview-image}}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{{item-title}}</h4>
+                <p>{{item-brief}}</p>
+                <div class="portfolio-links">
+                  <a href="{{preview-image}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{item-title}}"><i class="bx bx-plus"></i></a>
+                  <a href="{{item-details-htmlfile}}" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Teaching">
+                <div class="portfolio-wrap" style="background:rgba(255,255,255,0);">
+                <img src="static/img/representation.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Student Representation</h4>
+                    <p><p>Engaging in University politics and student representation.</p></p>
+                    <div class="portfolio-links">
+                    <a href="static/img/representation.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Student Representation"><i class="bx bx-plus"></i></a>
+                    <a href="00_community/representation.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-EDI">
+                <div class="portfolio-wrap" style="background:rgba(255,255,255,0);">
+                <img src="static/img/activism.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Equity, Diversity and Inclusion</h4>
+                    <p><p>Making Astronomy a more inclusive place for all.</p></p>
+                    <div class="portfolio-links">
+                    <a href="static/img/activism.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Equity, Diversity and Inclusion"><i class="bx bx-plus"></i></a>
+                    <a href="00_community/activism.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-Teaching">
+                <div class="portfolio-wrap" style="background:rgba(255,255,255,0);">
+                <img src="static/img/teaching.JPG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Teaching and Mentoring</h4>
+                    <p><p>Helping others to learn and grow.</p></p>
+                    <div class="portfolio-links">
+                    <a href="static/img/teaching.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Teaching and Mentoring"><i class="bx bx-plus"></i></a>
+                    <a href="00_community/teaching.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-EDI">
+                <div class="portfolio-wrap" style="background:rgba(255,255,255,0);">
+                <img src="static/img/OuterSpace.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>EDI Talks</h4>
+                    <p><p>Educating and Sharing Voices</p></p>
+                    <div class="portfolio-links">
+                    <a href="static/img/OuterSpace.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="EDI Talks"><i class="bx bx-plus"></i></a>
+                    <a href="00_community/talks.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+</section><!-- End Portfolio Section -->
+<!-- ======= Resume Section ======= -->
+<section id="00_outreach" class="resume">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Outreach</h2>
+            
+        </div>
+
+        <div class="row">
+            
+            <div class="col-lg-6">
+                <h3 class="resume-title"><i class="fa-solid fa-book-open"></i> Publications</h3>
+                
+            <div class="resume-item">
+                <h5>Feb 2023</h5>
+                <h4>Mein Nachbar, das Schwarze Loch</h4>
+                <p><em>Sterne und Weltraum</em></p>
+                <p><a href = "https://www.spektrum.de/inhaltsverzeichnis/bilderflut-neues-vom-james-webb-teleskop-sterne-und-weltraum-2-23/2070471">Link</a></p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>Aug 2022</h5>
+                <h4>Wolkig mit Aussicht auf Edelsteinregen</h4>
+                <p><em>Sterne und Weltraum</em></p>
+                <p><a href = "https://www.spektrum.de/inhaltsverzeichnis/unsere-galaxis-die-neuen-messdaten-der-gaia-mission-suw-8-22/1939138">Link</a></p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>July 2022</h5>
+                <h4>5000 Augen erfassen die größte Galaxienkarte der Welt</h4>
+                <p><em>Sterne und Weltraum</em></p>
+                <p><a href = "https://www.spektrum.de/inhaltsverzeichnis/radioteleskope-enthuellen-schatten-unseres-schwarzen-lochs-suw-7-22/1939135">Link</a></p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+            </div>
+            
+
+
+            <div class="col-lg-6">
+                <h3 class="resume-title"><i class="fa-solid fa-person-chalkboard"></i> Talks</h3>
+                
+            <div class="resume-item">
+                <h5>May 2024</h5>
+                <h4>Mein Nachbar, das Schwarze Loch</h4>
+                <p><em>Faszination Astronomie, Haus der Astronomie, Heidelberg, Germany</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>Oct 2023</h5>
+                <h4>Das nächstgelegene Schwarze Loch</h4>
+                <p><em>MPIA Open Day, Heidelberg, Germany</em></p>
+                
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>Mar 2023</h5>
+                <h4>Mein Nachbar, das Schwarze Loch</h4>
+                <p><em>Faszination Astronomie Online</em></p>
+                <p><a href = "https://www.youtube.com/live/D8SoVKJzGpg?si=Tp4KOEQl3WIMMhnD">Link</a></p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+
+            <div class="resume-item">
+                <h5>Sept 2021</h5>
+                <h4>Searching for Life on Other Planets</h4>
+                <p><em>100 Hours of Astronomy</em></p>
+                <p><a href = "https://www.youtube.com/watch?v=rSFwaQI4Wqw">Link</a></p>
+                <p style="font-size:small; color: rgba(85, 85, 85, 0.782);"></p>
+            </div>
+            
+            </div>
+            
+            <!--  content template
+            <div class="col-lg-{{columwidth}}">
+                <h3 class="resume-title">{{item-title}}</h3>
+                {{item-content}}
+            </div>
+            -->
+        </div>
+
+    </div>
+</section><!-- End Resume Section -->
+<!-- ======= Contact Section ======= -->
+<section id="00_contact" class="contact">
+    <div class="container" data-aos="fade-up"
+        style="display: flex;justify-content: space-around;flex-wrap: wrap;align-items: center;">
+
+        <div class="section-title">
+            <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+            <div class="col-lg-10">
+                <div class="info">
+                    
+            <div class="phone">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Max-Planck-Institute for Astronomy</h4>
+                <p><a href="https://goo.gl/maps/Fei2wF4hCszwcjVU6">Königstuhl 17, Heidelberg, BW 69117</a></p>
+            </div>
+            
+
+            <div class="phone">
+                <i class="bi bi-envelope"></i>
+                <h4>Email</h4>
+                <p><a href="mailto:seeburger@mpia.de">seeburger@mpia.de</a></p>
+            </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Rhys Seeburger</span></strong>. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+        <br>
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+          <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+          <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+          <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+          <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+          </a>
       </div>
-      <div class="clearer"></div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed based on <a href="https://bootstrapmade.com/">BootstrapMade</a> - <a href="https://bootstrapmade.com/free-html-bootstrap-template-my-resume/" target="_blank"><strong>MyResume</strong></a>
+        Adapted using code from <a href="https://mfouesneau.github.io/">Morgan Fouesneau</a>
+      </div>
     </div>
-    <div class="footer">
-      &copy;2019, sphinx-action Test Suite.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
-      
-      |
-      <a href="_sources/index.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
+  </footer><!-- End Footer -->
 
-    
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    
-  </body>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js crossorigin=anonymous></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
