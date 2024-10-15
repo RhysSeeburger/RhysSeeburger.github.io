@@ -32,6 +32,11 @@ cv:
       columnwidth: 6
       icon: ""
   twentytwentyfour:
+    - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
+      where: IvS Seminar, KU Leuven, Belgium
+      date: October 3rd 2024
+      keywords: ""
+      description: https://www.youtube.com/watch?v=a0TlI5aDLqY
     - title: Black Hole Imposters
       where: From discovery to a population; benchmarking stripped stars and companions, Leiden, Netherlands
       date: July 22nd 2024
