@@ -36,6 +36,11 @@ cv:
       keywords: ""
       description: <a href = "https://www.spektrum.de/inhaltsverzeichnis/radioteleskope-enthuellen-schatten-unseres-schwarzen-lochs-suw-7-22/1939135">Link</a>
   talks:
+    - title: Schwarzen Löchern auf der Spur
+      where: Astronomie am Nachmittag, Planetarium Mannheim, Mannheim, Germany
+      date: October 2024
+      keywords: ""
+      description: ""
     - title: Mein Nachbar, das Schwarze Loch
       where: Faszination Astronomie, Haus der Astronomie, Heidelberg, Germany
       date: May 2024
