@@ -1,3 +1,5 @@
+A detailed analysis of a sample of black hole impostoring (post-)mass-transfer binaries
+
 ---
 type: cv
 active: true
@@ -32,6 +34,16 @@ cv:
       columnwidth: 6
       icon: ""
   twentytwentyfour:
+    - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
+      where: Coffee talk, Royal Observatory Edinburgh, Scotland
+      date: October 25th 2024
+      keywords: ""
+      description: ""
+    - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
+      where: Glasgow Astronomy Seminar, Glasgow University, Scotland
+      date: October 23rd 2024
+      keywords: ""
+      description: ""
     - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
       where: IvS Seminar, KU Leuven, Belgium
       date: October 3rd 2024
