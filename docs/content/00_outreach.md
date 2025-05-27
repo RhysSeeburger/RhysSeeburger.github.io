@@ -37,6 +37,11 @@ cv:
       description: <a href = "https://www.spektrum.de/inhaltsverzeichnis/radioteleskope-enthuellen-schatten-unseres-schwarzen-lochs-suw-7-22/1939135">Link</a>
   talks:
     - title: Schwarzen Löchern auf der Spur
+      where: Astronomischer Arbeitskreis, Pollichia Museum, Bad Dürkheim, Germany
+      date: Janurary 2025
+      keywords: ""
+      description: ""
+    - title: Schwarzen Löchern auf der Spur
       where: Astronomie am Nachmittag, Planetarium Mannheim, Mannheim, Germany
       date: October 2024
       keywords: ""
