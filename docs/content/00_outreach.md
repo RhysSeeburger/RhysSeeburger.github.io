@@ -13,12 +13,16 @@ cv:
     # defines the columns of the section
     - category: publications
       title: "Publications"
-      columnwidth: 6
+      columnwidth: 4
       icon: "fa-solid fa-book-open"
     - category: talks
       title: "Talks"
-      columnwidth: 6
+      columnwidth: 4
       icon: "fa-solid fa-person-chalkboard"
+    - category: online
+      title: "Online Talks"
+      columnwidth: 4
+      icon: "fa-solid fa-display"
   publications:
     - title: Mein Nachbar, das Schwarze Loch
       where: Sterne und Weltraum
@@ -56,6 +60,12 @@ cv:
       date: Oct 2023
       keywords: ""
       description: ""
+  online:
+    - title: ChatGPT & Co in der Astronomie
+      where: Astro & Co
+      date: May 2025
+      keywords: ""
+      description: <a href = "https://www.youtube.com/watch?v=uHZAYPrqOzY">Link</a>
     - title: Mein Nachbar, das Schwarze Loch
       where: Faszination Astronomie Online
       date: Mar 2023
@@ -66,3 +76,4 @@ cv:
       date: Sept 2021
       keywords: ""
       description: <a href = "https://www.youtube.com/watch?v=rSFwaQI4Wqw">Link</a>
+    
