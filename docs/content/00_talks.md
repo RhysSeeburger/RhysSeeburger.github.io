@@ -21,7 +21,7 @@ cv:
     #   title: "Equity, Diversity, and Inclusion"
     #   columnwidth: 6
     #   icon: "fa-solid fa-scale-balanced"
-    - category: twentytwentytwothree
+    - category: twentytwentytwo_three
       title: "2022/2023"
       columnwidth: 3
       icon: ""
