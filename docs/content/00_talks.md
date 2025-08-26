@@ -21,18 +21,33 @@ cv:
     #   title: "Equity, Diversity, and Inclusion"
     #   columnwidth: 6
     #   icon: "fa-solid fa-scale-balanced"
-    - category: twentytwentytwo
-      title: "2022"
+    - category: twentytwentytwo_three
+      title: "2022/2023"
       columnwidth: 3
       icon: ""
-    - category: twentytwentythree
-      title: "2023"
-      columnwidth: 3
-      icon: ""
+    # - category: twentytwentythree
+    #   title: "2023"
+    #   columnwidth: 3
+    #   icon: ""
     - category: twentytwentyfour
       title: "2024"
       columnwidth: 6
       icon: ""
+    - category: twentytwentyfive
+      title: "2025"
+      columnwidth: 3
+      icon: ""
+  twentytwentyfive:
+    - title: Untangling binary stars with APOGEE spectra
+      where: Binary Stars in a New Era, Lijiang, China
+      date: August 29th 2025
+      keywords: ""
+      description: ""
+    - title: Untangling binary stars with APOGEE spectra
+      where: SDSS-V Collaboration Meeting, Haus der Astronomie, Heidelberg, Germany
+      date: June 5th 2025
+      keywords: ""
+      description: ""
   twentytwentyfour:
     - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
       where: Coffee talk, Royal Observatory Edinburgh, Scotland
@@ -69,7 +84,12 @@ cv:
       date: May 6th 2024
       keywords: ""
       description: ""
-  twentytwentythree:
+    - title: Spectral Disentangling for Large Surveys
+      where: Kansas University Spring seminar (remote)
+      date: February 23rd 2024
+      keywords: ""
+      description: ""
+  twentytwentytwo_three
     - title: Hunting for Dark Companions
       where: Stellar Astrophysics in the Era of Gaia, Spectroscopic, and Asteroseismic Surveys, Garching, Germany
       date: August 24th 2023
@@ -85,9 +105,8 @@ cv:
       date: March 1st, 2023
       keywords: ""
       description: ""
-  twentytwentytwo:
     - title: Finding Black Holes that are actually Black
-      where: Galaxy Coffee, Max Planck institute for Astronomy, Heidelberg, Germany
+      where: Galaxy Coffee, Max Planck Institute for Astronomy, Heidelberg, Germany
       date: Nov 30th, 2022
       keywords: ""
       description: ""
