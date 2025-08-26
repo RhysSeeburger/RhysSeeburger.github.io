@@ -21,14 +21,10 @@ cv:
     #   title: "Equity, Diversity, and Inclusion"
     #   columnwidth: 6
     #   icon: "fa-solid fa-scale-balanced"
-    - category: twentytwentytwo_three
+    - category: twentytwentytwothree
       title: "2022/2023"
       columnwidth: 3
       icon: ""
-    # - category: twentytwentythree
-    #   title: "2023"
-    #   columnwidth: 3
-    #   icon: ""
     - category: twentytwentyfour
       title: "2024"
       columnwidth: 6
@@ -89,7 +85,7 @@ cv:
       date: February 23rd 2024
       keywords: ""
       description: ""
-  twentytwentytwo_three
+  twentytwentytwo_three:
     - title: Hunting for Dark Companions
       where: Stellar Astrophysics in the Era of Gaia, Spectroscopic, and Asteroseismic Surveys, Garching, Germany
       date: August 24th 2023
