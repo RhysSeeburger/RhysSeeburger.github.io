@@ -23,17 +23,13 @@ cv:
     #   icon: "fa-solid fa-scale-balanced"
     - category: twentytwentytwo_three
       title: "2022/2023"
-      columnwidth: 3
+      columnwidth: 4
       icon: ""
-    - category: twentytwentyfour
-      title: "2024"
-      columnwidth: 6
+    - category: twentytwentyfour_five
+      title: "2024/2025"
+      columnwidth: 8
       icon: ""
-    - category: twentytwentyfive
-      title: "2025"
-      columnwidth: 3
-      icon: ""
-  twentytwentyfive:
+  twentytwentyfour_five:
     - title: Untangling binary stars with APOGEE spectra
       where: Binary Stars in a New Era, Lijiang, China
       date: August 29th 2025
@@ -44,7 +40,6 @@ cv:
       date: June 5th 2025
       keywords: ""
       description: ""
-  twentytwentyfour:
     - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
       where: Coffee talk, Royal Observatory Edinburgh, Scotland
       date: October 25th 2024
