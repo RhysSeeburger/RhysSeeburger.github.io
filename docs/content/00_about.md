@@ -11,14 +11,16 @@ background_image: static/img/bg.jpg
 title: Rhys Seeburger
 
 # text under tile: I am ...
-iam: a PhD Student in Astronomy, passionate about Outreach, an advocate for EDI in STEM, an avid Python user
+iam: a Postdoctoral Researcher in Astronomy, passionate about Outreach, an advocate for EDI in STEM, an avid Python user
 # Role/position/tagline in the about me page
-role: PhD Student in Astronomy
+role: Postdoctoral Researcher in Astronomy
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Max Planck Institute for Astronomy
-  url: https://www.mpia.de/en
+- name: Astrophysics Research Institute, LJMU
+  url: https://www.ljmu.ac.uk/research/centres-and-institutes/astrophysics-research-institute
+# - name: Max Planck Institute for Astronomy
+#   url: https://www.mpia.de/en
 
 # Short bio (displayed in user profile at end of posts)
 # bio: Interested in astronomy and data analysis puzzles
@@ -66,18 +68,27 @@ orcid: 0000-0001-8898-9463
 
 contact:
 - icon: bi bi-geo-alt
-  title: Max-Planck-Institut für Astronomie
+  title: Astrophysics Research Institute, Liverpool John Moores University
   description: |
-    [Königstuhl 17, Heidelberg, BW 69117](https://goo.gl/maps/Fei2wF4hCszwcjVU6)
+    [146  Brownlow Hill, L3 5RF Liverpool](https://maps.app.goo.gl/WrKwKSLyxALmcKpP9)
 - icon: bi bi-envelope
   title: Email
-  email: seeburger@mpia.de
+  email: seeburger.astro@gmail.com
   description: |
-    [seeburger<at>mpia.de](mailto:seeburger@mpia.de)
+    [seeburger.astro<at>gmail.com](mailto:seeburger.astro@gmail.com)
+# - icon: bi bi-geo-alt
+#  title: Max-Planck-Institut für Astronomie
+#  description: |
+#    [Königstuhl 17, Heidelberg, BW 69117](https://goo.gl/maps/Fei2wF4hCszwcjVU6)
+# - icon: bi bi-envelope
+#  title: Email
+#  email: seeburger@mpia.de
+#  description: |
+#    [seeburger<at>mpia.de](mailto:seeburger@mpia.de)
 ---
 
-Hello! I am Rhys Seeburger, also known as Luzian, and I am an <a href = "https://www.imprs-hd.mpg.de/442140/Seeburger-Luzian">IMPRS</a> PhD Student at the <a href = "https://www.mpia.de/person/114717/3378443">Max Planck Institute for Astronomy</a> in Heidelberg, Germany, in the <a href = "https://www.mpia.de/rix/team">group of Hans-Walter Rix</a>. I previously completed my MPhys in Astrophysics at the University of Edinburgh, Scotland, in 2021.
-My current work focuses on the detection and eventual characterisation of dark objects (such as non-accreting black holes) in the Milky Way Galaxy. As such, I (plan to) use spectroscopic, astrometric and photometric data to comprehensively search our home galaxy for these fascinating objects. Our goal is to learn more about the final stages of stellar evolution, especially for stars in multiple systems.
+Hello! I am Rhys Seeburger, also known as Luzian, and I am an Postdoctoral Researcher at the <a href = "https://profiles.ljmu.ac.uk/20536-rhys-seeburger">Astrophysics Research Institute</a> in Liverpool, UK, in the <a href = "https://www.astro.ljmu.ac.uk/~ariskama/">group of Sebastian Kamann</a>. I previously completed my PhD In Astronomy at MPIA in Heidelberg, Germany in 2025, and my MPhys in Astrophysics at the University of Edinburgh, Scotland, in 2021.
+My current work focuses on the characterisation of binary stars, particularly those containing dark objects (such as non-accreting black holes) in the Milky Way Galaxy. As such, I use spectroscopic, astrometric and photometric data to comprehensively search our home galaxy for these fascinating objects. Our goal is to learn more about the final stages of stellar evolution, especially for stars in multiple systems.
 
 I care a lot about Astronomy as a diverse and inclusive discipline, and as such am very engaged in Outreach and Activism. If you have ideas on how we can make the field more accessible, or even just tell the public about what we do, and want to collaborate, feel free to drop an Email.
 
