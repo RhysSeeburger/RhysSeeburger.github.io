@@ -8,12 +8,12 @@ title: Contact
 
 contact:
 - icon: bi bi-geo-alt
-  title: Max-Planck-Institute for Astronomy
+  title: Astrophysics Research Institute, Liverpool John Moores University
   description: |
-    [Königstuhl 17, Heidelberg, BW 69117](https://goo.gl/maps/Fei2wF4hCszwcjVU6)
+    [146  Brownlow Hill, L3 5RF Liverpool](https://maps.app.goo.gl/WrKwKSLyxALmcKpP9)
 - icon: bi bi-envelope
   title: Email
-  email: seeburger@mpia.de
+  email: seeburger.astro@gmail.com
   description: |
-    [seeburger@mpia.de](mailto:seeburger@mpia.de)
+    [seeburger.astro<at>gmail.com](mailto:seeburger.astro@gmail.com)
 ---
