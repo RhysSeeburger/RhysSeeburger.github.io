@@ -14,8 +14,8 @@ In February 2023, I organised "OUTer Space", an LGBT+ Outreach day at the Haus d
 
 For the International Day against Homophobia, Biphobia and Transphobia (IDAHOBIT) 2023 I organised a presentation at the Max Planck Institute for Astronomy, inviting Emily Hunt to speak about her experience with activism for greater LGBT+ inclusion within Astronomy.
 
-Since 2023, I have been co-leading the "Queer International Meet-Up Heidelberg" as part of the PLUS Charity's offer of groups and meetings for queer people in the region.
+From 2023-2025, I co-lead the "Queer International Meet-Up Heidelberg" as part of the PLUS Charity's offer of groups and meetings for queer people in the region.
 
-Since 2024, I have been on the Equality Committee at MPIA, working together with the Gender Equality Officer and others to advocate for Equity, Diversity and Inclusion at our Institute.
+From 2024-2025, I sat on the Equality Committee at MPIA, working together with the Gender Equality Officer and others to advocate for Equity, Diversity and Inclusion at MPIA.
 
 I firmly believe that widening participation in Astronomy is crucial to the future of our field, and I am always keen to engage in initiatives to make this happen.
