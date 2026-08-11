@@ -1232,6 +1232,19 @@ section {
     margin-bottom: 10px;
 }
 
+.cv-category-col {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+    .cv-category-col {
+        flex: 0 0 var(--col-width, 100%);
+        max-width: var(--col-width, 100%);
+    }
+}
+
 .cv-category-header {
     width: 100%;
     border: none;
@@ -1253,12 +1266,18 @@ section {
 }
 
 .cv-category-content {
-    display: none;
-    width: 100%;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.35s ease;
 }
 
 .cv-category-content.open {
-    display: block;
+    grid-template-rows: 1fr;
+}
+
+.cv-category-content-inner {
+    overflow: hidden;
+    min-height: 0;
 }
 
 .cv-chevron {
