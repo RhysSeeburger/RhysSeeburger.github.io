@@ -1228,8 +1228,8 @@ section {
   font-size: 13px;
 }
 
-.cv-category-headers {
-    margin-bottom: 10px;
+.cv-category-container {
+    display: block;
 }
 
 .cv-category-col {
@@ -1239,9 +1239,20 @@ section {
 }
 
 @media (min-width: 992px) {
+    .cv-category-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .cv-category-col {
         flex: 0 0 var(--col-width, 100%);
         max-width: var(--col-width, 100%);
+    }
+
+    .cv-category-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        order: 9999;
     }
 }
 
