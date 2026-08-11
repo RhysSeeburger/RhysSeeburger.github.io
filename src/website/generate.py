@@ -282,8 +282,17 @@ class CV(Content):
 
         def parse_cv(cvdata):
             # Headers stay at the configured column width, side by side.
+            # NOTE: we don't use Bootstrap's col-lg-N here, because those
+            # classes only exist for whole numbers 1-12 - there is no
+            # "col-lg-2.4". Instead we compute a percentage width
+            # ourselves (columnwidth is still expressed "out of 12", so
+            # 4 -> 33.33%, 2.4 -> 20%, etc.) and pass it in as a CSS
+            # variable. The .cv-category-col rule in style.css only
+            # applies that width at the lg breakpoint and up, so it
+            # still stacks to full width on small screens like a normal
+            # Bootstrap column would.
             header_template = """
-            <div class="col-lg-{columnwidth}">
+            <div class="cv-category-col" style="--col-width: {widthpct:.4f}%;">
                 <button class="cv-category-header" type="button" data-target="cv-content-{category}">
                     <span>{item_title}</span>
                     <i class="fa-solid fa-chevron-down cv-chevron"></i>
@@ -291,23 +300,27 @@ class CV(Content):
             </div>
             """
             # Content panels live outside the header row, so they can span
-            # the full width of the section when expanded.
+            # the full width of the section when expanded. The inner
+            # wrapper div is needed for the grid-template-rows CSS
+            # animation trick (see .cv-category-content in style.css).
             content_template = """
             <div class="cv-category-content" id="cv-content-{category}">
-                {items}
+                <div class="cv-category-content-inner">
+                    {items}
+                </div>
             </div>
             """
             setup = cvdata['setup']
             headers = []
             contents = []
             for entry in setup:
-                columnwidth = entry['columnwidth']
+                widthpct = entry['columnwidth'] / 12 * 100
                 item_title = get_icon(entry['icon']) + " " + entry['title']
                 category = entry['category']
                 items = parse_cv_category(cvdata, category)
 
                 headers.append(header_template.format(
-                    columnwidth=columnwidth, category=category, item_title=item_title))
+                    widthpct=widthpct, category=category, item_title=item_title))
                 contents.append(content_template.format(
                     category=category, items=items))
 
