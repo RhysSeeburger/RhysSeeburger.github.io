@@ -21,21 +21,25 @@ cv:
     #   title: "Equity, Diversity, and Inclusion"
     #   columnwidth: 6
     #   icon: "fa-solid fa-scale-balanced"
-    - category: twentytwentytwo_three
-      title: "2022/2023"
-      columnwidth: 3
+    - category: twentytwentytwo
+      title: "2022"
+      columnwidth: 2.4
+      icon: ""
+    - category: twentytwentythree
+      title: "2023"
+      columnwidth: 2.4
       icon: ""
     - category: twentytwentyfour
       title: "2024"
-      columnwidth: 3
+      columnwidth: 2.4
       icon: ""
     - category: twentytwentyfive
       title: "2025"
-      columnwidth: 3
+      columnwidth: 2.4
       icon: ""
     - category: twentytwentysix
       title: "2026"
-      columnwidth: 3
+      columnwidth: 2.4
       icon: ""
   twentytwentysix:
     - title: "Match made in Heaven: Gaia and APOGEE for binary analysis"
@@ -125,7 +129,7 @@ cv:
       date: February 23rd 2024
       keywords: ""
       description: ""
-  twentytwentytwo_three:
+  twentytwentythree:
     - title: "Hunting for Dark Companions"
       where: Stellar Astrophysics in the Era of Gaia, Spectroscopic, and Asteroseismic Surveys, Garching, Germany
       date: August 24th 2023
@@ -141,6 +145,7 @@ cv:
       date: March 1st, 2023
       keywords: ""
       description: ""
+  twentytwentytwo:
     - title: "Finding Black Holes that are actually Black"
       where: Galaxy Coffee, Max Planck Institute for Astronomy, Heidelberg, Germany
       date: Nov 30th, 2022
