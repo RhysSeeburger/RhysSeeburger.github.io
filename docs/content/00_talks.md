@@ -23,13 +23,57 @@ cv:
     #   icon: "fa-solid fa-scale-balanced"
     - category: twentytwentytwo_three
       title: "2022/2023"
-      columnwidth: 4
+      columnwidth: 3
       icon: ""
-    - category: twentytwentyfour_five
-      title: "2024/2025"
-      columnwidth: 8
+    - category: twentytwentyfour
+      title: "2024"
+      columnwidth: 3
       icon: ""
-  twentytwentyfour_five:
+    - category: twentytwentyfive
+      title: "2025"
+      columnwidth: 3
+      icon: ""
+    - category: twentytwentysix
+      title: "2026"
+      columnwidth: 3
+      icon: ""
+  twentytwentysix:
+    - title: Match made in Heaven: Gaia and APOGEE for binary analysis
+      where: National Astronomy Meeting, Birmingham, UK
+      date: July 21st 2026
+      keywords: ""
+      description: ""
+    - title: The curious case of NGC 1850 BH1
+      where: To Be or not to Be: Understanding the star, the disk, and the stripped companions, Liege, Belgium
+      date: July 15th 2026
+      keywords: ""
+      description: ""
+    - title: Match made in Heaven: Gaia and APOGEE for binary analysis 
+      where: SDSS-V Collaboration Meeting, Leuven, Belgium
+      date: July 14th 2026
+      keywords: ""
+      description: ""
+    - title: The curious case of NGC 1850 BH1
+      where: Friday Afternoon Research Talk, Astrophysics Research Institute, Liverpool John Moores University, Liverpool, UK
+      date: June 12th 2026
+      keywords: ""
+      description: ""
+    - title: It takes two to tango: Binary Spectroscopy of NGC 1850
+      where: MUSE Busyweek, Leibniz Institute for Astrophysics Potsdam, Germany
+      date: April 22nd 2026
+      keywords: ""
+      description: ""
+  twentytwentyfive:
+    - title: Thoughts on (stable) mass transfer & outcomes
+      where: Stellar-Mass Black Holes at the Nexus of Optical, X-ray, and Gravitational Wave Surveys, KITP, Santa Barbara, USA
+      date: December 5th 2025
+      keywords: ""
+      description: ""
+    - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries
+      where: The Lifecycle of Stellar Black Holes, KITP, Santa Barbara, USA
+      date: November 18th 2025
+      keywords: ""
+      description: [link](https://online.kitp.ucsb.edu/online/stellarbh-c25/seeburger/)
     - title: Untangling binary stars with APOGEE spectra
       where: Binary Stars in a New Era, Lijiang, China
       date: August 29th 2025
@@ -40,6 +84,7 @@ cv:
       date: June 5th 2025
       keywords: ""
       description: ""
+  twentytwentyfour:
     - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
       where: Coffee talk, Royal Observatory Edinburgh, Scotland
       date: October 25th 2024
@@ -54,7 +99,7 @@ cv:
       where: IvS Seminar, KU Leuven, Belgium
       date: October 3rd 2024
       keywords: ""
-      description: https://www.youtube.com/watch?v=a0TlI5aDLqY
+      description: [link](https://www.youtube.com/watch?v=a0TlI5aDLqY)
     - title: Black Hole Imposters
       where: From discovery to a population; benchmarking stripped stars and companions, Leiden, Netherlands
       date: July 22nd 2024
