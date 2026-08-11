@@ -23,23 +23,23 @@ cv:
     #   icon: "fa-solid fa-scale-balanced"
     - category: twentytwentytwo
       title: "2022"
-      columnwidth: 2
+      columnwidth: 2.4
       icon: ""
     - category: twentytwentythree
       title: "2023"
-      columnwidth: 2
+      columnwidth: 2.4
       icon: ""
     - category: twentytwentyfour
       title: "2024"
-      columnwidth: 2
+      columnwidth: 2.4
       icon: ""
     - category: twentytwentyfive
       title: "2025"
-      columnwidth: 2
+      columnwidth: 2.4
       icon: ""
     - category: twentytwentysix
       title: "2026"
-      columnwidth: 2
+      columnwidth: 2.4
       icon: ""
   twentytwentysix:
     - title: "Match made in Heaven: Gaia and APOGEE for binary analysis"
