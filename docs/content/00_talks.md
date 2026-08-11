@@ -44,7 +44,7 @@ cv:
       keywords: ""
       description: ""
     - title: "The curious case of NGC 1850 BH1"
-      where: To Be or not to Be: Understanding the star, the disk, and the stripped companions, Liege, Belgium
+      where: "To Be or not to Be: Understanding the star, the disk, and the stripped companions, Liege, Belgium"
       date: July 15th 2026
       keywords: ""
       description: ""
