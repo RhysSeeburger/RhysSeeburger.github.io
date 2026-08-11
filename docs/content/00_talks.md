@@ -38,120 +38,120 @@ cv:
       columnwidth: 3
       icon: ""
   twentytwentysix:
-    - title: Match made in Heaven: Gaia and APOGEE for binary analysis
+    - title: "Match made in Heaven: Gaia and APOGEE for binary analysis"
       where: National Astronomy Meeting, Birmingham, UK
       date: July 21st 2026
       keywords: ""
       description: ""
-    - title: The curious case of NGC 1850 BH1
+    - title: "The curious case of NGC 1850 BH1"
       where: To Be or not to Be: Understanding the star, the disk, and the stripped companions, Liege, Belgium
       date: July 15th 2026
       keywords: ""
       description: ""
-    - title: Match made in Heaven: Gaia and APOGEE for binary analysis 
+    - title: "Match made in Heaven: Gaia and APOGEE for binary analysis"
       where: SDSS-V Collaboration Meeting, Leuven, Belgium
       date: July 14th 2026
       keywords: ""
       description: ""
-    - title: The curious case of NGC 1850 BH1
+    - title: "The curious case of NGC 1850 BH1"
       where: Friday Afternoon Research Talk, Astrophysics Research Institute, Liverpool John Moores University, Liverpool, UK
       date: June 12th 2026
       keywords: ""
       description: ""
-    - title: It takes two to tango: Binary Spectroscopy of NGC 1850
+    - title: "It takes two to tango: Binary Spectroscopy of NGC 1850"
       where: MUSE Busyweek, Leibniz Institute for Astrophysics Potsdam, Germany
       date: April 22nd 2026
       keywords: ""
       description: ""
   twentytwentyfive:
-    - title: Thoughts on (stable) mass transfer & outcomes
+    - title: "Thoughts on (stable) mass transfer & outcomes"
       where: Stellar-Mass Black Holes at the Nexus of Optical, X-ray, and Gravitational Wave Surveys, KITP, Santa Barbara, USA
       date: December 5th 2025
       keywords: ""
       description: ""
-    - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries
+    - title: "A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries"
       where: The Lifecycle of Stellar Black Holes, KITP, Santa Barbara, USA
       date: November 18th 2025
       keywords: ""
       description: [link](https://online.kitp.ucsb.edu/online/stellarbh-c25/seeburger/)
-    - title: Untangling binary stars with APOGEE spectra
+    - title: "Untangling binary stars with APOGEE spectra"
       where: Binary Stars in a New Era, Lijiang, China
       date: August 29th 2025
       keywords: ""
       description: ""
-    - title: Untangling binary stars with APOGEE spectra
+    - title: "Untangling binary stars with APOGEE spectra"
       where: SDSS-V Collaboration Meeting, Haus der Astronomie, Heidelberg, Germany
       date: June 5th 2025
       keywords: ""
       description: ""
   twentytwentyfour:
-    - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
+    - title: "A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)"
       where: Coffee talk, Royal Observatory Edinburgh, Scotland
       date: October 25th 2024
       keywords: ""
       description: ""
-    - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
+    - title: "A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)"
       where: Glasgow Astronomy Seminar, Glasgow University, Scotland
       date: October 23rd 2024
       keywords: ""
       description: ""
-    - title: A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)
+    - title: "A detailed analysis of a sample of black hole impostoring post-mass-transfer binaries (invited)"
       where: IvS Seminar, KU Leuven, Belgium
       date: October 3rd 2024
       keywords: ""
       description: [link](https://www.youtube.com/watch?v=a0TlI5aDLqY)
-    - title: Black Hole Imposters
+    - title: "Black Hole Imposters"
       where: From discovery to a population; benchmarking stripped stars and companions, Leiden, Netherlands
       date: July 22nd 2024
       keywords: ""
       description: ""
-    - title: A detailed analysis of a sample of black hole impostoring (post) mass transfer binaries
+    - title: "A detailed analysis of a sample of black hole impostoring (post) mass transfer binaries"
       where: The Eventful Life of Massive Star Multiples, Liege, Belgium
       date: July 18th 2024
       keywords: ""
       description: ""
-    - title: Autonomous Disentangling
+    - title: "Autonomous Disentangling (invited)"
       where: GALAH Science Telecon
       date: July 2nd 2024
       keywords: ""
       description: ""
-    - title: Black Hole Companions
+    - title: "Black Hole Companions"
       where: GC Retreat 2024, Ringberg, Germany
       date: May 6th 2024
       keywords: ""
       description: ""
-    - title: Spectral Disentangling for Large Surveys
+    - title: "Spectral Disentangling for Large Surveys (invited)"
       where: Kansas University Spring seminar (remote)
       date: February 23rd 2024
       keywords: ""
       description: ""
   twentytwentytwo_three:
-    - title: Hunting for Dark Companions
+    - title: "Hunting for Dark Companions"
       where: Stellar Astrophysics in the Era of Gaia, Spectroscopic, and Asteroseismic Surveys, Garching, Germany
       date: August 24th 2023
       keywords: ""
       description: ""
-    - title: Taking Spectral Disentangling to the Industrial Scale
+    - title: "Taking Spectral Disentangling to the Industrial Scale"
       where: EAS 2023, Krakow, Poland
       date: July 12th 2023
       keywords: ""
       description: ""
-    - title: Hunting for Dark Companions
+    - title: "Hunting for Dark Companions"
       where: The Time Domain in the Era of Astronomical Big Data, WISE Observatory, Mitzpe Ramon, Israel
       date: March 1st, 2023
       keywords: ""
       description: ""
-    - title: Finding Black Holes that are actually Black
+    - title: "Finding Black Holes that are actually Black"
       where: Galaxy Coffee, Max Planck Institute for Astronomy, Heidelberg, Germany
       date: Nov 30th, 2022
       keywords: ""
       description: ""
-    - title: Any Star could be a Binary
+    - title: "Any Star could be a Binary"
       where: The Impact of Binaries on Stellar Evolution, Max Planck Institute for Astrophysics, Garching, Germany
       date: Nov 18th, 2022
       keywords: ""
       description: ""
-    - title: Disentangling Composite Spectra
+    - title: "Disentangling Composite Spectra"
       where: IMPRS Seminar, University of Heidelberg, Heidelberg, Germany
       date: May 12th, 2022
       keywords: ""
