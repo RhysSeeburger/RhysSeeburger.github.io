@@ -281,28 +281,28 @@ class CV(Content):
             return '\n'.join(items)
 
         def parse_cv(cvdata):
-            # Headers stay at the configured column width, side by side.
-            # NOTE: we don't use Bootstrap's col-lg-N here, because those
-            # classes only exist for whole numbers 1-12 - there is no
-            # "col-lg-2.4". Instead we compute a percentage width
-            # ourselves (columnwidth is still expressed "out of 12", so
-            # 4 -> 33.33%, 2.4 -> 20%, etc.) and pass it in as a CSS
-            # variable. The .cv-category-col rule in style.css only
-            # applies that width at the lg breakpoint and up, so it
-            # still stacks to full width on small screens like a normal
-            # Bootstrap column would.
+            # Header and content are DOM siblings, in header, content,
+            # header, content... order. On mobile the wrapping container
+            # is a plain block, so browsers stack things in that exact
+            # DOM order - giving each category's content right beneath
+            # its own header, automatically.
+            #
+            # At the lg breakpoint and up, style.css turns the container
+            # into a flexbox and uses `order` to visually regroup things:
+            # headers pulled up top (in their configured order), all
+            # content panels pushed below (see .cv-category-content's
+            # fixed high `order` in style.css). Widths again aren't
+            # done via Bootstrap's col-lg-N (whole numbers 1-12 only)
+            # but via a computed percentage on --col-width, so
+            # fractional/non-12-divisible widths like 2.4 work too.
             header_template = """
-            <div class="cv-category-col" style="--col-width: {widthpct:.4f}%;">
+            <div class="cv-category-col" style="--col-width: {widthpct:.4f}%; order: {order};">
                 <button class="cv-category-header" type="button" data-target="cv-content-{category}">
                     <span>{item_title}</span>
                     <i class="fa-solid fa-chevron-down cv-chevron"></i>
                 </button>
             </div>
             """
-            # Content panels live outside the header row, so they can span
-            # the full width of the section when expanded. The inner
-            # wrapper div is needed for the grid-template-rows CSS
-            # animation trick (see .cv-category-content in style.css).
             content_template = """
             <div class="cv-category-content" id="cv-content-{category}">
                 <div class="cv-category-content-inner">
@@ -311,35 +311,28 @@ class CV(Content):
             </div>
             """
             setup = cvdata['setup']
-            headers = []
-            contents = []
-            for entry in setup:
+            pieces = []
+            for i, entry in enumerate(setup):
                 widthpct = entry['columnwidth'] / 12 * 100
                 item_title = get_icon(entry['icon']) + " " + entry['title']
                 category = entry['category']
                 items = parse_cv_category(cvdata, category)
 
-                headers.append(header_template.format(
-                    widthpct=widthpct, category=category, item_title=item_title))
-                contents.append(content_template.format(
+                pieces.append(header_template.format(
+                    widthpct=widthpct, category=category, item_title=item_title, order=i))
+                pieces.append(content_template.format(
                     category=category, items=items))
 
-            headers_html = '\n'.join(headers)
-            contents_html = '\n\n'.join(contents)
+            pieces_html = '\n'.join(pieces)
 
             # cv.html drops {{cv-content}} straight into an existing
-            # <div class="row">, so we wrap our two pieces in col-12s.
-            # Two full-width columns in a row automatically stack
-            # (12 + 12 > 12), giving us headers on top and the
-            # expanded content below, spanning the full row width.
+            # <div class="row">, so col-12 makes our container take the
+            # full row width regardless of screen size.
             content = f"""
             <div class="col-12">
-                <div class="row cv-category-headers">
-                    {headers_html}
+                <div class="cv-category-container">
+                    {pieces_html}
                 </div>
-            </div>
-            <div class="col-12 cv-category-contents">
-                {contents_html}
             </div>
             """
 
