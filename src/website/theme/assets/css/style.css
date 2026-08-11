@@ -1227,3 +1227,38 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.cv-category-header {
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #343a40;
+    text-align: left;
+    cursor: pointer;
+}
+
+.cv-category-header:hover {
+    color: #149ddd;
+}
+
+.cv-category-content {
+    display: none;
+}
+
+.cv-category.open .cv-category-content {
+    display: block;
+}
+
+.cv-chevron {
+    transition: transform 0.3s ease;
+}
+
+.cv-category.open .cv-chevron {
+    transform: rotate(180deg);
+}
