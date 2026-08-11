@@ -73,7 +73,7 @@ cv:
       where: The Lifecycle of Stellar Black Holes, KITP, Santa Barbara, USA
       date: November 18th 2025
       keywords: ""
-      description: [link](https://online.kitp.ucsb.edu/online/stellarbh-c25/seeburger/)
+      description: "[link](https://online.kitp.ucsb.edu/online/stellarbh-c25/seeburger/)"
     - title: "Untangling binary stars with APOGEE spectra"
       where: Binary Stars in a New Era, Lijiang, China
       date: August 29th 2025
@@ -99,9 +99,9 @@ cv:
       where: IvS Seminar, KU Leuven, Belgium
       date: October 3rd 2024
       keywords: ""
-      description: [link](https://www.youtube.com/watch?v=a0TlI5aDLqY)
+      description: "[link](https://www.youtube.com/watch?v=a0TlI5aDLqY)"
     - title: "Black Hole Imposters"
-      where: From discovery to a population; benchmarking stripped stars and companions, Leiden, Netherlands
+      where: "From discovery to a population: benchmarking stripped stars and companions, Leiden, Netherlands"
       date: July 22nd 2024
       keywords: ""
       description: ""
