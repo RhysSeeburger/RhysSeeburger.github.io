@@ -281,10 +281,22 @@ class CV(Content):
             return '\n'.join(items)
 
         def parse_cv(cvdata):
+            # col_template = """
+            # <div class="col-lg-{columwidth}">
+            #     <h3 class="resume-title">{item_title}</h3>
+            #     {items}
+            # </div>
+            # """
             col_template = """
-            <div class="col-lg-{columwidth}">
-                <h3 class="resume-title">{item_title}</h3>
-                {items}
+            <div class="col-lg-{columwidth} cv-category">
+                <button class="cv-category-header" type="button">
+                    <span>{item_title}</span>
+                    <i class="fa-solid fa-chevron-down cv-chevron"></i>
+                </button>
+            
+                <div class="cv-category-content">
+                    {items}
+                </div>
             </div>
             """
             setup = cvdata['setup']
