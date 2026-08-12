@@ -7,6 +7,7 @@ icon: fa-solid fa-atom
 title: Research
 
 filters:
+    Post-Doc: Post-Doc
     PhD: PhD
     UGrad: UGrad
 

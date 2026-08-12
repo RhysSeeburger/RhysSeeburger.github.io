@@ -11,7 +11,7 @@ brief: Unmasking black hole imposters and determining their history
 keywords:
     - Stellar Astrophysics
     - Spectroscopy
-    - Binaries
+    - Binary Stars
     - PhD
 
 preview-image: static/img/algol.webp
