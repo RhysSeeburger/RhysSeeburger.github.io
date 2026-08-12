@@ -13,7 +13,6 @@ contact:
     [146  Brownlow Hill, L3 5RF Liverpool](https://maps.app.goo.gl/WrKwKSLyxALmcKpP9)
 - icon: bi bi-envelope
   title: Email
-  email: seeburger.astro<at>gmail.com
   description: |
-    [seeburger.astro<at>gmail.com](mailto:seeburger.astro@gmail.com)
+    <seeburger.astro@gmail.com>
 ---
