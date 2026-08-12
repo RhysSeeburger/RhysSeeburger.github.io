@@ -475,7 +475,6 @@ class Gallery(Content):
                     <h4>{title}</h4>
                     <p>{brief}</p>
                     <div class="portfolio-links">
-                    <a href="{preview_image}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{title}"><i class="bx bx-plus"></i></a>
                     <a href="{item_details_htmlfile}" class="portfolio-details-lightbox" data-glightbox="type: external" title="Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
