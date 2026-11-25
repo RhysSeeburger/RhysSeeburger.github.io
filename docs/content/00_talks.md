@@ -42,6 +42,11 @@ cv:
       columnwidth: 2.4
       icon: ""
   twentytwentysix:
+    - title: "The physical properties of post-mass-transfer binaries" (Invited)
+      where: AG Meeting, Garching, Germany
+      date: September 10th 2026
+      keywords: ""
+      description: ""
     - title: "Match made in Heaven: Gaia and APOGEE for binary analysis"
       where: National Astronomy Meeting, Birmingham, UK
       date: July 21st 2026
